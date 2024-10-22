@@ -1,0 +1,19 @@
+---
+title: "Lucia Clarotto"
+image: images/photo.jpg
+about:
+  template: solana
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/lucia-clarotto-349022140/
+    - icon: book
+      text: Research Gate
+      href: https://www.researchgate.net/profile/Lucia-Clarotto-3
+    - icon: github
+      text: Github
+      href: https://github.com/luciclar
+---
+
+I'm assistant professor (Maîtresse de Conférences) in Statistics at AgroParisTech. 
+I do my research at MIA Paris-Saclay (AgroParisTech/INRAE, Université Paris Saclay).
