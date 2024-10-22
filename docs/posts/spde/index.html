@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Work of Vincent Fourmigué, supervised by Thomas Romary, Mike Pereira and myself">
+<meta name="author" content="Lucia Clarotto">
+<meta name="description" content="Work with Mike Pereira and Nicolas Desassis">
 
-<title>Estimation of spatio-temporal model by deep learning – Lucia Clarotto</title>
+<title>Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces – Lucia Clarotto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,18 +69,47 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Lucia Clarotto</span>
     </a>
   </div>
@@ -90,15 +120,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Reseach topics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -109,7 +143,38 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces</h1>
+                  <div>
+        <div class="description">
+          Work with Mike Pereira and Nicolas Desassis
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">deep</div>
+                <div class="quarto-category">spatial statistics</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Lucia Clarotto </p>
+            </div>
+    </div>
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -117,43 +182,35 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#estimation-of-spatio-temporal-model-by-deep-learning" id="toc-estimation-of-spatio-temporal-model-by-deep-learning" class="nav-link active" data-scroll-target="#estimation-of-spatio-temporal-model-by-deep-learning">Estimation of spatio-temporal model by deep learning</a></li>
+  <li><a href="#spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces" id="toc-spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces" class="nav-link active" data-scroll-target="#spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces">Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Estimation of spatio-temporal model by deep learning</h1>
-</div>
-
-<div>
-  <div class="description">
-    Work of Vincent Fourmigué, supervised by Thomas Romary, Mike Pereira and myself
-  </div>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
 
-
-<section id="estimation-of-spatio-temporal-model-by-deep-learning" class="level2">
-<h2 class="anchored" data-anchor-id="estimation-of-spatio-temporal-model-by-deep-learning">Estimation of spatio-temporal model by deep learning</h2>
-<p>As part of a collaboration with Thomas Romary and Mike Pereira (Mines Paris), we proposed an Master1-level internship (three months) focused on parameter estimation for spatio-temporal models using graph neural networks. The internship was funded by the [_Geolearning_] chair and took place from June to August 2023 with Vincent Fourmigué, a student at AgroParisTech. Although the student was employed by Mines Paris, he spent nearly the entire internship at the UMR MIA Paris-Saclay facilities on the Agro Paris Saclay Campus.</p>
-<p>In geostatistics, Gaussian processes are commonly used to model spatial and spatio-temporal data because they allow for straightforward prediction of the variable of interest at unmeasured sites while quantifying the uncertainty of the prediction. In this context, the data are considered to be a realization of a Gaussian random field, whose covariance function needs to be estimated from the data. A classical approach for inference is to select a parameterized family of covariance functions and then choose the parameters that maximize the likelihood associated with the data. In practice, this approach often becomes a bottleneck, as even evaluating the likelihood function can quickly become computationally expensive when dealing with large amounts of data, especially in spatio-temporal settings. Therefore, it is desirable to have methods that allow for deducing the parameters of a covariance model without relying on the likelihood function.</p>
-<p>Recently, several methods using neural networks (notably CNNs and GNNs) have been proposed to address this issue. The main approach aims to train a neural network capable of identifying the parameters of a covariance function based on a realization of a Gaussian random field with that covariance (Gerber et al., 2022, Lenzi et al., 2023, Wikle et al., 2022, Sainsbury-Dale et al., 2023).</p>
-<p>This internship aimed to develop and validate an architecture adapted to the spatio-temporal context. One challenge of this generalization is the estimation of a larger number of parameters, which has not been implemented so far. The first step involved coding (using the **PyGeometric** library in Python) the strategy highlighted in the literature, initially on simulated datasets. In the second phase, the goal was to adapt this approach to the spatio-temporal case, particularly for models derived from stochastic partial differential equations (Clarotto et al., 2024).</p>
+<section id="spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces" class="level2">
+<h2 class="anchored" data-anchor-id="spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces">Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces</h2>
+<p>Statisticians analyzing <strong>environmental data</strong> have recently shown great interest in introducing models inspired by the physics of underlying phenomena to improve prediction methods in a spatio-temporal context. The statistical method based on Stochastic Partial Differential Equations (<strong>SPDE</strong>) is an innovative approach to simulate, estimate, and predict spatial and spatio-temporal fields. A comprehensive and detailed formalism of the SPDE approach in the spatial context was introduced by Lindgren et al.&nbsp;(2011). Significant mathematical and algorithmic advances have been made over the past decade, enabling efficient handling of very large datasets Pereira et al.&nbsp;(2019). Moreover, Vergara et al.&nbsp;(2022) extended the approach to the spatio-temporal framework by incorporating physical processes related to the phenomena under study.</p>
+<p>The SPDE approach relies on approximating a continuously indexed Gaussian random field (GRF) as a discretely indexed random process, specifically a Gaussian Markov random field (GMRF). Transitioning from a GRF to a GMRF replaces the dense covariance function and matrix with a neighborhood structure and a sparse precision matrix, respectively. The use of GMRFs with sparse precision matrices leads to computationally efficient numerical methods.</p>
+<p>To better describe phenomena characterized by diffusive behavior that also exhibits transport in a preferred direction, I proposed in my thesis, completed in 2023, the class of advection-diffusion SPDEs:</p>
+<p><span class="math display">\[
+\left[\frac{\partial}{\partial t} + \frac{1}{c}(\kappa^2 - \nabla \cdot \mathbf{H}\nabla)^{\alpha} + \frac{1}{c}\mathbf{\gamma} \cdot \nabla \right] u = \frac{\tau}{\sqrt{c}} \mathcal{Z},
+\]</span></p>
+<p>where <span class="math display">\[\nabla \cdot \mathbf{H}\nabla\]</span> is a diffusion operator with possible anisotropy <span class="math display">\[\mathbf{H}\]</span>, <span class="math display">\[\mathbf{\gamma} \cdot \nabla\]</span> is an advection operator, <span class="math display">\[\alpha\geq0\]</span> governs the regularity of <span class="math display">\[u\]</span>, <span class="math display">\[\kappa^2&gt;0\]</span> is a damping term related to the spatial range of <span class="math display">\[u\]</span>, and <span class="math display">\[c\]</span> is a time scale parameter. Finally, <span class="math display">\[\tau\geq 0\]</span> is a standard deviation. The stochastic nature arises from the stochastic forcing term <span class="math display">\[\mathcal{Z}\]</span>, which can be a spatio-temporal white noise <span class="math display">\[\mathcal{Z} = \mathcal{W}_S \otimes \mathcal{W}_T\]</span> or a colored noise.</p>
+<p>The different terms of the SPDE (advection, diffusion) directly influence the spatio-temporal dependencies of the process by controlling its variability in space and time.</p>
+<p>Through finite element and finite difference discretization of the SPDE, this approach leads to a sparse structure in the precision matrix of the spatio-temporal field, allowing the use of fast algorithms for estimating SPDE parameters and for spatio-temporal prediction using kriging.</p>
+<p>Compared to spatio-temporal models built using covariance kernels, this model gains not only in computational efficiency but also in interpretability, as the model parameters can be linked to the physical coefficients of the SPDE.</p>
+<p>The objective of this past year’s work, in collaboration with Mike Pereira and Nicolas Desassis, was to propose a statistical model for spatio-temporal data on meshed surfaces based on the SPDE modeling approach (Lindgren et al., 2011). To do this, we considered the class of advection-diffusion PDEs developed during my thesis (Clarotto et al., 2024), defined on compact, orientable, smooth, closed Riemannian manifolds of dimension 2, and their discretization using a Galerkin approach (Pereira et al., 2022).</p>
+<p>We have demonstrated how this approach easily allows the proposal of scalable algorithms for the simulation, inference, and prediction of Gaussian random fields that are solutions to the discretized SPDE.</p>
+<p>Moreover, by varying the coefficients of the differential operators in the SPDE, it is possible to define a variety of non-stationary spatio-temporal models. This opens up the possibility of relaxing the stationarity assumption, which is often too restrictive in the study of environmental phenomena.</p>
+<p>We applied the method to a simulated spatio-temporal dataset exhibiting advective and diffusive behavior on the sphere, as well as to a real case study concerning CO<span class="math display">\[_2\]</span> concentration in the atmosphere at the Earth’s surface. The movement of CO<span class="math display">\[_2\]</span> is essentially driven by advection processes (wind currents) and diffusion. Our statistical approach based on physical equations aims to account for this phenomenon.</p>
+<p>The generality of the model and its adaptability to large datasets favor its application to a wide range of environmental and geoscientific data (wind, particulate matter concentration, water resources, etc.).</p>
+<p>More details can be found in Clarotto et al.&nbsp;(2024) and Pereira et al.&nbsp;(2023).</p>
 
 
 </section>

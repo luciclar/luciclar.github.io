@@ -1,7 +1,18 @@
 ---
 title: Estimation of spatio-temporal model by deep learning
-
-description: Work of Vincent Fourmigué, supervised by Thomas Romary, Mike Pereira and myself
+description: "Work of Vincent Fourmigué, supervised by Thomas Romary, Mike Pereira and myself"
+author:
+  - name: Lucia Clarotto
+    #url: https://samanthacsik.github.io/
+    #orcid: 0000-0002-5300-3075
+    #affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+    #affiliation-url: https://ucsb-meds.github.io/ 
+#date: 10-24-2022
+#citation: 
+  #url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
+#image: preview-image.png
+categories: [deep, spatial statistics] 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
 ## Estimation of spatio-temporal model by deep learning

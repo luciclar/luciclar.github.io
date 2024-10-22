@@ -15,5 +15,4 @@ about:
       href: https://github.com/luciclar
 ---
 
-I'm assistant professor (Maîtresse de Conférences) in Statistics at AgroParisTech. 
-I do my research at MIA Paris-Saclay (AgroParisTech/INRAE, Université Paris Saclay).
+I'm assistant professor (Maîtresse de Conférences) in Statistics at AgroParisTech. I do my research at MIA Paris-Saclay (AgroParisTech/INRAE, Université Paris Saclay).

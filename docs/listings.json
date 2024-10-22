@@ -1,0 +1,10 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/deep_inference/index.html",
+      "/posts/spde/index.html",
+      "/posts/pinns_spde/index.html"
+    ]
+  }
+]

@@ -9,7 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - href: research.qmd
-        text: Research
+        text: Papers
+      - href: posts.qmd
+        text: Reseach topics
       - about.qmd
 
 format:
@@ -19,4 +21,6 @@ format:
     toc: true
 
 editor: visual
+
+
 

@@ -1,0 +1,49 @@
+---
+title: Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces
+description: "Work with Mike Pereira and Nicolas Desassis"
+author:
+  - name: Lucia Clarotto
+    #url: https://samanthacsik.github.io/
+    #orcid: 0000-0002-5300-3075
+    #affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+    #affiliation-url: https://ucsb-meds.github.io/ 
+#date: 10-24-2022
+#citation: 
+  #url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
+#image: preview-image.png
+categories: [deep, spatial statistics] 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+## Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces
+Statisticians analyzing **environmental data** have recently shown great interest in introducing models inspired by the physics of underlying phenomena to improve prediction methods in a spatio-temporal context. The statistical method based on Stochastic Partial Differential Equations (**SPDE**) is an innovative approach to simulate, estimate, and predict spatial and spatio-temporal fields. A comprehensive and detailed formalism of the SPDE approach in the spatial context was introduced by Lindgren et al. (2011). Significant mathematical and algorithmic advances have been made over the past decade, enabling efficient handling of very large datasets Pereira et al. (2019). Moreover, Vergara et al. (2022) extended the approach to the spatio-temporal framework by incorporating physical processes related to the phenomena under study.
+
+The SPDE approach relies on approximating a continuously indexed Gaussian random field (GRF) as a discretely indexed random process, specifically a Gaussian Markov random field (GMRF). Transitioning from a GRF to a GMRF replaces the dense covariance function and matrix with a neighborhood structure and a sparse precision matrix, respectively. The use of GMRFs with sparse precision matrices leads to computationally efficient numerical methods.
+
+To better describe phenomena characterized by diffusive behavior that also exhibits transport in a preferred direction, I proposed in my thesis, completed in 2023, the class of advection-diffusion SPDEs:
+
+$$
+\left[\frac{\partial}{\partial t} + \frac{1}{c}(\kappa^2 - \nabla \cdot \mathbf{H}\nabla)^{\alpha} + \frac{1}{c}\mathbf{\gamma} \cdot \nabla \right] u = \frac{\tau}{\sqrt{c}} \mathcal{Z},
+$$
+
+where $$\nabla \cdot \mathbf{H}\nabla$$ is a diffusion operator with possible anisotropy $$\mathbf{H}$$, $$\mathbf{\gamma} \cdot \nabla$$ is an advection operator, $$\alpha\geq0$$ governs the regularity of $$u$$, $$\kappa^2>0$$ is a damping term related to the spatial range of $$u$$, and $$c$$ is a time scale parameter. Finally, $$\tau\geq 0$$ is a standard deviation. The stochastic nature arises from the stochastic forcing term $$\mathcal{Z}$$, which can be a spatio-temporal white noise $$\mathcal{Z} = \mathcal{W}_S \otimes \mathcal{W}_T$$ or a colored noise.
+
+The different terms of the SPDE (advection, diffusion) directly influence the spatio-temporal dependencies of the process by controlling its variability in space and time.
+
+Through finite element and finite difference discretization of the SPDE, this approach leads to a sparse structure in the precision matrix of the spatio-temporal field, allowing the use of fast algorithms for estimating SPDE parameters and for spatio-temporal prediction using kriging.
+
+Compared to spatio-temporal models built using covariance kernels, this model gains not only in computational efficiency but also in interpretability, as the model parameters can be linked to the physical coefficients of the SPDE.
+
+The objective of this past year's work, in collaboration with Mike Pereira and Nicolas Desassis, was to propose a statistical model for spatio-temporal data on meshed surfaces based on the SPDE modeling approach (Lindgren et al., 2011). To do this, we considered the class of advection-diffusion PDEs developed during my thesis (Clarotto et al., 2024), defined on compact, orientable, smooth, closed Riemannian manifolds of dimension 2, and their discretization using a Galerkin approach (Pereira et al., 2022).
+
+We have demonstrated how this approach easily allows the proposal of scalable algorithms for the simulation, inference, and prediction of Gaussian random fields that are solutions to the discretized SPDE.
+
+Moreover, by varying the coefficients of the differential operators in the SPDE, it is possible to define a variety of non-stationary spatio-temporal models. This opens up the possibility of relaxing the stationarity assumption, which is often too restrictive in the study of environmental phenomena.
+
+We applied the method to a simulated spatio-temporal dataset exhibiting advective and diffusive behavior on the sphere, as well as to a real case study concerning CO$$_2$$ concentration in the atmosphere at the Earth's surface. The movement of CO$$_2$$ is essentially driven by advection processes (wind currents) and diffusion. Our statistical approach based on physical equations aims to account for this phenomenon.
+
+The generality of the model and its adaptability to large datasets favor its application to a wide range of environmental and geoscientific data (wind, particulate matter concentration, water resources, etc.).
+
+More details can be found in Clarotto et al. (2024) and Pereira et al. (2023).
+
+
