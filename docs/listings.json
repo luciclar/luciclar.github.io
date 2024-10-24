@@ -6,5 +6,9 @@
       "/posts/spde/index.html",
       "/posts/pinns_spde/index.html"
     ]
+  },
+  {
+    "listing": "/talks/talks.html",
+    "items": []
   }
 ]

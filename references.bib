@@ -1,0 +1,27 @@
+@article{allard2022,
+title = {Fully nonseparable Gneiting covariance functions for multivariate space–time data},
+journal = {Spatial Statistics},
+volume = {52},
+pages = {100706},
+year = {2022},
+issn = {2211-6753},
+doi = {https://doi.org/10.1016/j.spasta.2022.100706},
+url = {https://www.sciencedirect.com/science/article/pii/S2211675322000677},
+author = {Denis Allard and Lucia Clarotto and Xavier Emery},
+keywords = {Spatio-temporal modeling, Matrix-valued covariance function, Pseudo-variogram, Matérn covariance, Spectral simulation},
+abstract = {We broaden the well-known Gneiting class of space–time covariance functions by introducing a very general parametric class of fully nonseparable direct and cross-covariance functions for multivariate random fields, where each component has a spatial covariance function from the Matérn family with its own smoothness and scale parameters and, unlike most of currently available models, its own correlation function in time. We present sufficient conditions that result in valid models with varying degrees of complexity and we discuss the parameterization of those. Continuous-in-space and discrete-in-time simulation algorithms are also given, which are not limited by the number of target spatial coordinates and allow tens of thousands of time coordinates. The application of the proposed model is illustrated on a weather trivariate dataset over France. Our new model yields better fitting and better predictive scores in time compared to a more parsimonious model with a common temporal correlation function.}
+}
+
+@article{clarotto2024,
+title = {The SPDE approach for spatio-temporal datasets with advection and diffusion},
+journal = {Spatial Statistics},
+volume = {62},
+pages = {100847},
+year = {2024},
+issn = {2211-6753},
+doi = {https://doi.org/10.1016/j.spasta.2024.100847},
+url = {https://www.sciencedirect.com/science/article/pii/S2211675324000381},
+author = {Lucia Clarotto and Denis Allard and Thomas Romary and Nicolas Desassis},
+keywords = {Spatio-temporal statistics, Stochastic Partial Differential Equations, advection–diffusion, Geostatistics, Solar radiation},
+abstract = {In the task of predicting spatio-temporal fields in environmental science using statistical methods, introducing statistical models inspired by the physics of the underlying phenomena that are numerically efficient is of growing interest. Large space–time datasets call for new numerical methods to efficiently process them. The Stochastic Partial Differential Equation (SPDE) approach has proven to be effective for the estimation and the prediction in a spatial context. We present here the advection–diffusion SPDE with first–order derivative in time which defines a large class of nonseparable spatio-temporal models. A Gaussian Markov random field approximation of the solution to the SPDE is built by discretizing the temporal derivative with a finite difference method (implicit Euler) and by solving the spatial SPDE with a finite element method (continuous Galerkin) at each time step. The “Streamline Diffusion” stabilization technique is introduced when the advection term dominates the diffusion. Computationally efficient methods are proposed to estimate the parameters of the SPDE and to predict the spatio-temporal field by kriging, as well as to perform conditional simulations. The approach is applied to a solar radiation dataset. Its advantages and limitations are discussed.}
+}

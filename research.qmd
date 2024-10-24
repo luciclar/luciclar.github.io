@@ -1,5 +1,20 @@
 ---
-title: Research
+title: "Research"
+bibliography: references.bib
+nocite: |
+  @*
+bibliographystyle: apa
 ---
 
-I do my research in spatio-temporal statistics.
+An incomplete list of research topics I'm interested in:
+
+-   Spatio-temporal statistics [see @clarotto2024]
+-   Deep generative models
+-   Stochastic PDEs
+-   Physics-Informed Neural Networks (PINNs)
+
+## List of publications
+
+::: {#refs}
+:::
+

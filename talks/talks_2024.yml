@@ -1,0 +1,23 @@
+- title: "Modeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
+  date: 2024-06-27
+  description: 'International Meeting on Statistical Climatology (IMSC)'
+  location: Toulouse, France
+  #links:
+  #- name: Companion site and materials
+  #  url: https://talks.andrewheiss.com/2024-04-25_ksu-bayes/
+  #  icon: fa-solid fa-up-right-from-square
+  #- name: GitHub repository
+  #  url: https://github.com/andrewheiss/2024-04-25_ksu-bayes
+  #  icon: fa-brands fa-github
+
+# - title: "SPDE_2"
+#   date: 2024-06-15
+#   description: 'International Conference on Statistical Climatology'
+#   location: Toulouse, France
+  #links:
+  #- name: Companion site and materials
+  #  url: https://talks.andrewheiss.com/2024-04-25_ksu-bayes/
+  #  icon: fa-solid fa-up-right-from-square
+  #- name: GitHub repository
+  #  url: https://github.com/andrewheiss/2024-04-25_ksu-bayes
+  #  icon: fa-brands fa-github

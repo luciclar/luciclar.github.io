@@ -9,14 +9,27 @@ website:
       - href: index.qmd
         text: Home
       - href: research.qmd
-        text: Papers
+        text: Research
       - href: posts.qmd
         text: Reseach topics
+      - href: talks/talks.qmd
+        text: Talks
       - about.qmd
+      - text: Get in touch!
+        menu:
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/lucia-clarotto-349022140/
+            target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:lucia.clarotto@agroparistech.fr
 
 format:
   html:
-    theme: minty
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 

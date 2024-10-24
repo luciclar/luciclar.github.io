@@ -4,15 +4,45 @@ image: images/photo.jpg
 about:
   template: solana
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/lucia-clarotto-349022140/
     - icon: book
       text: Research Gate
       href: https://www.researchgate.net/profile/Lucia-Clarotto-3
+      target: _blank
     - icon: github
       text: Github
       href: https://github.com/luciclar
+      target: _blank
 ---
 
-I'm assistant professor (Maîtresse de Conférences) in Statistics at AgroParisTech. I do my research at MIA Paris-Saclay (AgroParisTech/INRAE, Université Paris Saclay).
+Assistant professor (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
+*MMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique*  
+Research at **UMR MIA Paris-Saclay** (Mathématique et Informatique Appliquées).
+
+Formerly PhD at Centre of Geosciences and Geoengineering, Mines Paris
+
+::: {style="font-size: 80%;"}
+Office: E4.510 [=Building E, 4th floor, corridor 500, office 10]  
+22 place de l’Agronomie  
+91120 PALAISEAU
+:::
+
+
+# [Research](research.qmd)
+
+An incomplete list of research topics I'm interested in:
+
+* Spatio-temporal statistics
+* Stochastic Partial Differential Equations
+* Deep generative models
+* Physics-Informed Neural Networks (PINNs)
+
+# Teaching
+
+I teach statistics at *AgroParisTech*, Master *BEE of University Paris Saclay*, *Mines Paris* and Master *EcoTrop of AgroParisTech and University of Guyana*.
+
+
+# Short description
+
+* Here is my [CV {{< fa file >}}](assets/CV_Clarotto.pdf) 
+
+* [Myself in short](https://www.scoop.it/topic/life-sci-news-upsaclay/p/4161208374/2024/09/17/portrait-jeune-chercheuse-lucia-clarotto-maitresse-de-conferences-en-statistique-spatio-temporelle){target="_blank"}
