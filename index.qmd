@@ -12,13 +12,22 @@ about:
       text: Github
       href: https://github.com/luciclar
       target: _blank
+format:
+  html: 
+    grid:
+      sidebar-width: 200px
+      body-width: 1100px
+      margin-width: 200px
+      gutter-width: 1.5rem
 ---
 
+::: {style="font-size: 95%;"}
 Assistant professor (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
 *MMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique*  
 Research at **UMR MIA Paris-Saclay** (Mathématique et Informatique Appliquées).
 
 Formerly PhD at Centre of Geosciences and Geoengineering, Mines Paris
+:::
 
 ::: {style="font-size: 80%;"}
 Office: E4.510 [=Building E, 4th floor, corridor 500, office 10]  

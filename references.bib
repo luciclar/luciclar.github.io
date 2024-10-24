@@ -25,3 +25,27 @@ author = {Lucia Clarotto and Denis Allard and Thomas Romary and Nicolas Desassis
 keywords = {Spatio-temporal statistics, Stochastic Partial Differential Equations, advection–diffusion, Geostatistics, Solar radiation},
 abstract = {In the task of predicting spatio-temporal fields in environmental science using statistical methods, introducing statistical models inspired by the physics of the underlying phenomena that are numerically efficient is of growing interest. Large space–time datasets call for new numerical methods to efficiently process them. The Stochastic Partial Differential Equation (SPDE) approach has proven to be effective for the estimation and the prediction in a spatial context. We present here the advection–diffusion SPDE with first–order derivative in time which defines a large class of nonseparable spatio-temporal models. A Gaussian Markov random field approximation of the solution to the SPDE is built by discretizing the temporal derivative with a finite difference method (implicit Euler) and by solving the spatial SPDE with a finite element method (continuous Galerkin) at each time step. The “Streamline Diffusion” stabilization technique is introduced when the advection term dominates the diffusion. Computationally efficient methods are proposed to estimate the parameters of the SPDE and to predict the spatio-temporal field by kriging, as well as to perform conditional simulations. The approach is applied to a solar radiation dataset. Its advantages and limitations are discussed.}
 }
+
+@article{clarotto2022,
+title = {A new class of α-transformations for the spatial analysis of Compositional Data},
+journal = {Spatial Statistics},
+volume = {47},
+pages = {100570},
+year = {2022},
+issn = {2211-6753},
+doi = {https://doi.org/10.1016/j.spasta.2021.100570},
+url = {https://www.sciencedirect.com/science/article/pii/S2211675321000725},
+author = {Lucia Clarotto and Denis Allard and Alessandra Menafoglio},
+keywords = {Geostatistics, Kriging, Isometric Log-Ratio (ILR) transformation, Compositions with 0s},
+abstract = {Georeferenced compositional data are prominent in many scientific fields and in spatial statistics. This work addresses the problem of proposing models and methods to analyze and predict, through kriging, this type of data. To this purpose, a novel class of α-transformations, named the Isometric α-transformation (α-IT), is proposed, which encompasses the traditional Isometric Log-Ratio (ILR) transformation. Similarly to other α-transformations existing in the literature, it is shown that the ILR is the limit case of the α-IT as α tends to 0 and that α=1 corresponds to a linear transformation of the data. Unlike the ILR, the proposed transformation accepts 0s in the compositions when α>0. Maximum likelihood estimation of the parameter α is established. Prediction using kriging on α-IT transformed data is validated on synthetic spatial compositional data, using prediction scores computed either in the geometry induced by the α-IT, or in the simplex. Application to land cover data shows that the relative superiority of the various approaches w.r.t. a prediction objective depends on whether the compositions contained any zero component. When all components are positive, the limit cases (ILR or linear transformations) are optimal for none of the considered metrics. An intermediate geometry, corresponding to the α-IT with maximum likelihood estimate, better describes the dataset in a geostatistical setting. When the amount of compositions with 0s is not negligible, some side-effects of the transformation gets amplified as α decreases, entailing poor kriging performances both within the α-IT geometry and for metrics in the simplex.}
+}
+
+
+@article{allard2021,
+author = {Denis Allard and Lucia Clarotto and Thomas Opitz and Thomas Romary},
+year = {2021},
+pages = {},
+title = {Discussion on “Competition on Spatial Statistics for Large Datasets”},
+volume = {26},
+journal = {Journal of Agricultural, Biological and Environmental Statistics}
+}

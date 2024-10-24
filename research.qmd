@@ -8,10 +8,12 @@ bibliographystyle: apa
 
 An incomplete list of research topics I'm interested in:
 
--   Spatio-temporal statistics [see @clarotto2024]
+-   Spatio-temporal statistics [see @allard2022, @clarotto2024]
+-   Stochastic PDEs [see @clarotto2024]
 -   Deep generative models
--   Stochastic PDEs
 -   Physics-Informed Neural Networks (PINNs)
+-   Compositional Data Analysis [see @clarotto2022]
+-   Fast methods for spatial and spatio-temporal inference [see @allard2021]
 
 ## List of publications
 

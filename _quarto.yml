@@ -9,12 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - href: research.qmd
-        text: Research
+        text: Publications
       - href: posts.qmd
         text: Reseach topics
       - href: talks/talks.qmd
         text: Talks
-      - about.qmd
       - text: Get in touch!
         menu:
           - icon: linkedin
