@@ -40,7 +40,9 @@ We have demonstrated how this approach easily allows the proposal of scalable al
 
 Moreover, by varying the coefficients of the differential operators in the SPDE, it is possible to define a variety of non-stationary spatio-temporal models. This opens up the possibility of relaxing the stationarity assumption, which is often too restrictive in the study of environmental phenomena.
 
-We applied the method to a simulated spatio-temporal dataset exhibiting advective and diffusive behavior on the sphere, as well as to a real case study concerning CO$_2$ concentration in the atmosphere at the Earth's surface. The movement of CO$_2$ is essentially driven by advection processes (wind currents) and diffusion. Our statistical approach based on physical equations aims to account for this phenomenon.
+We applied the method to a simulated spatio-temporal dataset exhibiting advective and diffusive behavior on the sphere.
+
+We are now working on a case study concerning particulate matter concentration in the atmosphere. The movement of particulate matter is essentially driven by advection processes (wind currents) and diffusion. Our statistical approach based on physical equations aims to account for this phenomenon.
 
 The generality of the model and its adaptability to large datasets favor its application to a wide range of environmental and geoscientific data (wind, particulate matter concentration, water resources, etc.).
 

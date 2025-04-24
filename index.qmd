@@ -5,6 +5,9 @@ about:
   template: solana
   links:
     - icon: book
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=J_QCdDkAAAAJ&hl=en&oi=ao
+    - icon: book
       text: Research Gate
       href: https://www.researchgate.net/profile/Lucia-Clarotto-3
       target: _blank
@@ -31,12 +34,13 @@ Formerly PhD at Centre of Geosciences and Geoengineering, Mines Paris
 
 ::: {style="font-size: 80%;"}
 Office: E4.510 [=Building E, 4th floor, corridor 500, office 10]  
+Campus Agro Paris-Saclay
 22 place de l’Agronomie  
 91120 PALAISEAU
 :::
 
 
-# [Research](research.qmd)
+# Research
 
 An incomplete list of research topics I'm interested in:
 
@@ -47,11 +51,13 @@ An incomplete list of research topics I'm interested in:
 
 # Teaching
 
-I teach statistics at *AgroParisTech*, Master *BEE of University Paris Saclay*, *Mines Paris* and Master *EcoTrop of AgroParisTech and University of Guyana*.
+I teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics...) at undergraduate and graduate students at *AgroParisTech*, Master *BEE of University Paris Saclay*, *Mines Paris* and Master *EcoTrop of AgroParisTech and University of Guyana*.
 
 
 # Short description
 
 * Here is my [CV {{< fa file >}}](assets/CV_Clarotto.pdf) 
 
-* [Myself in short](https://www.scoop.it/topic/life-sci-news-upsaclay/p/4161208374/2024/09/17/portrait-jeune-chercheuse-lucia-clarotto-maitresse-de-conferences-en-statistique-spatio-temporelle){target="_blank"}
+* [In short, I am...](https://www.scoop.it/topic/life-sci-news-upsaclay/p/4161208374/2024/09/17/portrait-jeune-chercheuse-lucia-clarotto-maitresse-de-conferences-en-statistique-spatio-temporelle){target="_blank"}
+
+* [In more detail, I am...](https://www.universite-paris-saclay.fr/actualites/lucia-clarotto-predire-des-phenomenes-environnementaux-grace-la-geostatistique)

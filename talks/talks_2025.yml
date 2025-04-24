@@ -1,8 +1,25 @@
 - title: "Modeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
-  date: 2024-06-27
+  date: 2024-06-24
+  end-date: 2024-06-28
   description: 'International Meeting on Statistical Climatology (IMSC)'
   location: Toulouse, France
+
+- title: "Parameter and density estimation in SDEs via PINNs and Normalizing Flows: applications to environmental sciences"
+  date: 2025-03-31
+  end-date: 2025-04-03
+  description: 'Geolearning Seminar'
+  location: Fréjus, France
+ 
+- title: "Spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs: application to environmental data"
+  date: 2025-04-07
+  description: 'Séminaire de Probabilités et Statistique IMAG'
+  location: Montpellier, France
   
+- title: "Scalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
+  date: 2025-07-15
+  end-date: 2025-07-18
+  description: 'Spatial Statistics 2025: At the Dawn of AI'
+  location: Noordwijk, The Netherlands
   #links:
   #- name: Companion site and materials
   #  url: https://talks.andrewheiss.com/2024-04-25_ksu-bayes/
@@ -22,4 +39,3 @@
   #- name: GitHub repository
   #  url: https://github.com/andrewheiss/2024-04-25_ksu-bayes
   #  icon: fa-brands fa-github
- 
