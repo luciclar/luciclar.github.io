@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - googlec39ab1bb7da100b8.html
+
+
 
 website:
   title: "Lucia Clarotto"
@@ -33,8 +37,5 @@ format:
     toc: true
 
 editor: visual
-
-include:
-  - googlec39ab1bb7da100b8.html
 
 
