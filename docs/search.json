@@ -53,14 +53,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "This page contains the various workshops, talks, lectures, and presentations I’ve given.\n\n\n\n\n\nModeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n\n\n\n\n\nInternational Meeting on Statistical Climatology (IMSC)\n\n\n\n\n\nJune 24, 2024\n\n\n2024-06-28\n\n\nToulouse, France\n\n\n\n\n\n\n\nParameter and density estimation in SDEs via PINNs and Normalizing Flows: applications to environmental sciences\n\n\n\n\n\nGeolearning Seminar\n\n\n\n\n\nMarch 31, 2025\n\n\n2025-04-03\n\n\nFréjus, France\n\n\n\n\n\n\n\nSpatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs: application to environmental data\n\n\n\n\n\nSéminaire de Probabilités et Statistique IMAG\n\n\n\n\n\nApril 7, 2025\n\n\nMontpellier, France\n\n\n\n\n\n\n\nScalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n\n\n\n\n\nSpatial Statistics 2025: At the Dawn of AI\n\n\n\n\n\nJuly 15, 2025\n\n\n2025-07-18\n\n\nNoordwijk, The Netherlands\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/talks.html#section",
-    "href": "talks/talks.html#section",
-    "title": "Talks",
-    "section": "2024",
-    "text": "2024\n\n\n\n    \n    \n                  \n            June 27, 2024\n        \n        \n            Modeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n            International Meeting on Statistical Climatology (IMSC) | Toulouse, France\n\n            \n            \n        \n    \n    \n\n\nNo matching items"
+    "text": "This page contains the various workshops, talks, lectures, and presentations I’ve given.\n\n\n\n\n\nScalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n\n\n\n\n\nSpatial Statistics 2025: At the Dawn of AI\n\n\n\n\n\nJuly 15, 2025\n\n\n2025-07-18\n\n\nNoordwijk, The Netherlands\n\n\n\n\n\n\n\nSpatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs: application to environmental data\n\n\n\n\n\nSéminaire de Probabilités et Statistique IMAG\n\n\n\n\n\nApril 7, 2025\n\n\nMontpellier, France\n\n\n\n\n\n\n\nParameter and density estimation in SDEs via PINNs and Normalizing Flows: applications to environmental sciences\n\n\n\n\n\nGeolearning Seminar\n\n\n\n\n\nMarch 31, 2025\n\n\n2025-04-03\n\n\nFréjus, France\n\n\n\n\n\n\n\nModeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n\n\n\n\n\nInternational Meeting on Statistical Climatology (IMSC)\n\n\n\n\n\nJune 24, 2024\n\n\n2024-06-28\n\n\nToulouse, France\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/spde/index.html",
@@ -89,26 +82,5 @@
     "title": "Lucia Clarotto",
     "section": "",
     "text": "Assistant professor (Maîtresse de Conférences) in Statistics at AgroParisTech since september 2023.\nMMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique\nResearch at UMR MIA Paris-Saclay (Mathématique et Informatique Appliquées).\nFormerly PhD at Centre of Geosciences and Geoengineering, Mines Paris\n\n\nOffice: E4.510 [=Building E, 4th floor, corridor 500, office 10]\nCampus Agro Paris-Saclay 22 place de l’Agronomie\n91120 PALAISEAU\n\n\nResearch\nAn incomplete list of research topics I’m interested in:\n\nSpatio-temporal statistics\nStochastic Partial Differential Equations\nDeep generative models\nPhysics-Informed Neural Networks (PINNs)\n\n\n\nTeaching\nI teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics…) at undergraduate and graduate students at AgroParisTech, Master BEE of University Paris Saclay, Mines Paris and Master EcoTrop of AgroParisTech and University of Guyana.\n\n\nShort description\n\nHere is my CV \nIn short, I am…\nIn more detail, I am…"
-  },
-  {
-    "objectID": "talks/talks.html#talks-2024",
-    "href": "talks/talks.html#talks-2024",
-    "title": "Talks",
-    "section": "Talks 2024",
-    "text": "Talks 2024\n\ncontents: talks_2024.yml"
-  },
-  {
-    "objectID": "talks/talks.html#talks-2025",
-    "href": "talks/talks.html#talks-2025",
-    "title": "Talks",
-    "section": "Talks 2025",
-    "text": "Talks 2025\n\ncontents: talks_2025.yml"
-  },
-  {
-    "objectID": "talks/talks.html#talks",
-    "href": "talks/talks.html#talks",
-    "title": "Talks",
-    "section": "Talks",
-    "text": "Talks\n\n\n\n\n\nModeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n\n\n\n\n\nInternational Meeting on Statistical Climatology (IMSC)\n\n\n\n\n\nJune 24, 2024\n\n\n2024-06-28\n\n\nToulouse, France\n\n\n\n\n\n\n\nParameter and density estimation in SDEs via PINNs and Normalizing Flows: applications to environmental sciences\n\n\n\n\n\nGeolearning Seminar\n\n\n\n\n\nMarch 31, 2025\n\n\n2025-04-03\n\n\nFréjus, France\n\n\n\n\n\n\n\nSpatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs: application to environmental data\n\n\n\n\n\nSéminaire de Probabilités et Statistique IMAG\n\n\n\n\n\nApril 7, 2025\n\n\nMontpellier, France\n\n\n\n\n\n\n\nScalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs\n\n\n\n\n\nSpatial Statistics 2025: At the Dawn of AI\n\n\n\n\n\nJuly 15, 2025\n\n\n2025-07-18\n\n\nNoordwijk, The Netherlands\n\n\n\n\n\n\nNo matching items"
   }
 ]
