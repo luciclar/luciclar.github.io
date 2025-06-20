@@ -7,6 +7,7 @@ about:
     - icon: book
       text: Google Scholar
       href: https://scholar.google.com/citations?user=J_QCdDkAAAAJ&hl=en&oi=ao
+      target: _blank
     - icon: book
       text: Research Gate
       href: https://www.researchgate.net/profile/Lucia-Clarotto-3
