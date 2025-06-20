@@ -26,7 +26,7 @@ format:
 ---
 
 ::: {style="font-size: 95%;"}
-Assistant professor (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
+Lecturer (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
 *MMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique*  
 Research at **UMR MIA Paris-Saclay** (Mathématique et Informatique Appliquées).
 
