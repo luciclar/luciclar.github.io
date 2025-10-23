@@ -14,7 +14,7 @@ date-format: "MMMM D, YYYY"
 ---
 
 
-This page contains the various workshops, talks, lectures, and presentations I've given. 
+Here are the various conference talks, workshops, lectures and presentations I've given. 
 
 :::{#talks_2025}
 :::

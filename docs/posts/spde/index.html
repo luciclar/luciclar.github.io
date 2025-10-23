@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lucia Clarotto">
-<meta name="description" content="Work with Mike Pereira and Nicolas Desassis">
+<meta name="description" content="Joint work with Mike Pereira and Nicolas Desassis">
 
 <title>Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces – Lucia Clarotto</title>
 <style>
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -169,7 +189,7 @@ window.Quarto = {
       <h1 class="title">Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces</h1>
                   <div>
         <div class="description">
-          Work with Mike Pereira and Nicolas Desassis
+          Joint work with Mike Pereira and Nicolas Desassis
         </div>
       </div>
                           <div class="quarto-categories">
@@ -204,7 +224,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces" id="toc-spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces" class="nav-link active" data-scroll-target="#spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces">Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces</a></li>
+  <li><a href="#prediction-of-spatio-temporal-data-on-meshed-surfaces-using-advection-diffusion-spdes" id="toc-prediction-of-spatio-temporal-data-on-meshed-surfaces-using-advection-diffusion-spdes" class="nav-link active" data-scroll-target="#prediction-of-spatio-temporal-data-on-meshed-surfaces-using-advection-diffusion-spdes">Prediction of spatio-temporal data on meshed surfaces using advection-diffusion SPDEs</a></li>
   </ul>
 </nav>
     </div>
@@ -215,8 +235,8 @@ window.Quarto = {
 
 
 
-<section id="spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces" class="level2">
-<h2 class="anchored" data-anchor-id="spatio-temporal-prediction-using-stochastic-partial-differential-equations-for-advection-diffusion-on-riemannian-surfaces">Spatio-Temporal Prediction Using Stochastic Partial Differential Equations for Advection-Diffusion on Riemannian Surfaces</h2>
+<section id="prediction-of-spatio-temporal-data-on-meshed-surfaces-using-advection-diffusion-spdes" class="level2">
+<h2 class="anchored" data-anchor-id="prediction-of-spatio-temporal-data-on-meshed-surfaces-using-advection-diffusion-spdes">Prediction of spatio-temporal data on meshed surfaces using advection-diffusion SPDEs</h2>
 <p>Statisticians analyzing <strong>environmental data</strong> have recently shown great interest in introducing models inspired by the physics of underlying phenomena to improve prediction methods in a spatio-temporal context. The statistical method based on Stochastic Partial Differential Equations (<strong>SPDE</strong>) is an innovative approach to simulate, estimate, and predict spatial and spatio-temporal fields. A comprehensive and detailed formalism of the SPDE approach in the spatial context was introduced by Lindgren et al.&nbsp;(2011). Significant mathematical and algorithmic advances have been made over the past decade, enabling efficient handling of very large datasets Pereira et al.&nbsp;(2019). Moreover, Vergara et al.&nbsp;(2022) extended the approach to the spatio-temporal framework by incorporating physical processes related to the phenomena under study.</p>
 <p>The SPDE approach relies on approximating a continuously indexed Gaussian random field (GRF) as a discretely indexed random process, specifically a Gaussian Markov random field (GMRF). Transitioning from a GRF to a GMRF replaces the dense covariance function and matrix with a neighborhood structure and a sparse precision matrix, respectively. The use of GMRFs with sparse precision matrices leads to computationally efficient numerical methods.</p>
 <p>To better describe phenomena characterized by diffusive behavior that also exhibits transport in a preferred direction, I proposed in my thesis, completed in 2023, the class of advection-diffusion SPDEs:</p>
@@ -227,13 +247,17 @@ window.Quarto = {
 <p>The different terms of the SPDE (advection, diffusion) directly influence the spatio-temporal dependencies of the process by controlling its variability in space and time.</p>
 <p>Through finite element and finite difference discretization of the SPDE, this approach leads to a sparse structure in the precision matrix of the spatio-temporal field, allowing the use of fast algorithms for estimating SPDE parameters and for spatio-temporal prediction using kriging.</p>
 <p>Compared to spatio-temporal models built using covariance kernels, this model gains not only in computational efficiency but also in interpretability, as the model parameters can be linked to the physical coefficients of the SPDE.</p>
-<p>The objective of this past year’s work, in collaboration with Mike Pereira and Nicolas Desassis, was to propose a statistical model for spatio-temporal data on meshed surfaces based on the SPDE modeling approach (Lindgren et al., 2011). To do this, we considered the class of advection-diffusion PDEs developed during my thesis (Clarotto et al., 2024), defined on compact, orientable, smooth, closed Riemannian manifolds of dimension 2, and their discretization using a Galerkin approach (Pereira et al., 2022).</p>
-<p>We have demonstrated how this approach easily allows the proposal of scalable algorithms for the simulation, inference, and prediction of Gaussian random fields that are solutions to the discretized SPDE.</p>
-<p>Moreover, by varying the coefficients of the differential operators in the SPDE, it is possible to define a variety of non-stationary spatio-temporal models. This opens up the possibility of relaxing the stationarity assumption, which is often too restrictive in the study of environmental phenomena.</p>
-<p>We applied the method to a simulated spatio-temporal dataset exhibiting advective and diffusive behavior on the sphere.</p>
-<p>We are now working on a case study concerning particulate matter concentration in the atmosphere. The movement of particulate matter is essentially driven by advection processes (wind currents) and diffusion. Our statistical approach based on physical equations aims to account for this phenomenon.</p>
-<p>The generality of the model and its adaptability to large datasets favor its application to a wide range of environmental and geoscientific data (wind, particulate matter concentration, water resources, etc.).</p>
-<p>More details can be found in Clarotto et al.&nbsp;(2024) and Pereira et al.&nbsp;(2023).</p>
+<p>The objective of this new work, in collaboration with Mike Pereira and Nicolas Desassis, is to propose a statistical model for spatio-temporal data on meshed surfaces based on the SPDE modeling approach. Specifically, we focus on a class of advection-diffusion SPDEs defined on smooth compact orientable closed Riemannian manifolds of dimension 2, and their discretization via a Galerkin approach. We demonstrate how this method enables the development of scalable algorithms for the simulation and prediction of Gaussian random fields that are solutions to the discretized SPDE. Additionally, we present recent developments in the inference of such models. The method is applied to a simulated spatio-temporal dataset exhibiting advective and diffusive behavior on the sphere, as well as to a real case study on aerosol optical depth in the atmosphere across the globe’s surface.</p>
+<p>More details can be found in <span class="citation" data-cites="clarotto2024advdiff">Clarotto et al. (<a href="#ref-clarotto2024advdiff" role="doc-biblioref">2024</a>)</span> and <span class="citation" data-cites="pereira2025strf">Pereira, Clarotto, and Desassis (<a href="#ref-pereira2025strf" role="doc-biblioref">2025</a>)</span>.</p>
+<hr>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-clarotto2024advdiff" class="csl-entry" role="listitem">
+Clarotto, Lucia, Denis Allard, Thomas Romary, and Nicolas Desassis. 2024. <span>“The <span>SPDE</span> Approach for Spatio-Temporal Datasets with Advection and Diffusion.”</span> <em>Spatial Statistics</em> 62: 100847.
+</div>
+<div id="ref-pereira2025strf" class="csl-entry" role="listitem">
+Pereira, Mike, Lucia Clarotto, and Nicolas Desassis. 2025. <span>“The <span>SPDE</span> Approach for Spatio-Temporal Datasets with Advection and Diffusion.”</span> <em>Hal-04132148</em>. <a href="https://hal.science/hal-04132148">https://hal.science/hal-04132148</a>.
+</div>
+</div>
 
 
 </section>
@@ -475,7 +499,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/luciclar\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lucia Clarotto">
-<meta name="description" content="Work of Vincent Fourmigué, supervised by Thomas Romary, Mike Pereira and myself">
+<meta name="description" content="Joint work with Alexandre Loret (PhD student), Nicolas Desassis, Thomas Romary and Vincent Fourmigué (M2 student)">
 
 <title>Estimation of spatio-temporal model by deep learning – Lucia Clarotto</title>
 <style>
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -140,12 +160,13 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">Estimation of spatio-temporal model by deep learning</h1>
                   <div>
         <div class="description">
-          Work of Vincent Fourmigué, supervised by Thomas Romary, Mike Pereira and myself
+          Joint work with Alexandre Loret (PhD student), Nicolas Desassis, Thomas Romary and Vincent Fourmigué (M2 student)
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">deep</div>
+                <div class="quarto-category">deep learning</div>
                 <div class="quarto-category">spatial statistics</div>
+                <div class="quarto-category">sbi</div>
               </div>
                   </div>
   </div>
@@ -173,7 +194,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#estimation-of-spatio-temporal-model-by-deep-learning" id="toc-estimation-of-spatio-temporal-model-by-deep-learning" class="nav-link active" data-scroll-target="#estimation-of-spatio-temporal-model-by-deep-learning">Estimation of spatio-temporal model by deep learning</a></li>
+  <li><a href="#estimation-of-spatio-temporal-model-by-deep-learning" id="toc-estimation-of-spatio-temporal-model-by-deep-learning" class="nav-link active" data-scroll-target="#estimation-of-spatio-temporal-model-by-deep-learning">Estimation of spatio-temporal model by deep learning</a>
+  <ul class="collapse">
+  <li><a href="#first-step-vincent-fourmigués-internship" id="toc-first-step-vincent-fourmigués-internship" class="nav-link" data-scroll-target="#first-step-vincent-fourmigués-internship">First step : Vincent Fourmigué’s internship</a></li>
+  <li><a href="#current-work-alexandre-lorets-phd" id="toc-current-work-alexandre-lorets-phd" class="nav-link" data-scroll-target="#current-work-alexandre-lorets-phd">Current work : Alexandre Loret’s PhD</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -186,12 +211,35 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="estimation-of-spatio-temporal-model-by-deep-learning" class="level2">
 <h2 class="anchored" data-anchor-id="estimation-of-spatio-temporal-model-by-deep-learning">Estimation of spatio-temporal model by deep learning</h2>
-<p>As part of a collaboration with Thomas Romary and Mike Pereira (Mines Paris), we proposed an Master1-level internship (three months) focused on parameter estimation for spatio-temporal models using graph neural networks. The internship was funded by the [_Geolearning_] chair and took place from June to August 2023 with Vincent Fourmigué, a student at AgroParisTech. Although the student was employed by Mines Paris, he spent nearly the entire internship at the UMR MIA Paris-Saclay facilities on the Agro Paris Saclay Campus.</p>
 <p>In geostatistics, Gaussian processes are commonly used to model spatial and spatio-temporal data because they allow for straightforward prediction of the variable of interest at unmeasured sites while quantifying the uncertainty of the prediction. In this context, the data are considered to be a realization of a Gaussian random field, whose covariance function needs to be estimated from the data. A classical approach for inference is to select a parameterized family of covariance functions and then choose the parameters that maximize the likelihood associated with the data. In practice, this approach often becomes a bottleneck, as even evaluating the likelihood function can quickly become computationally expensive when dealing with large amounts of data, especially in spatio-temporal settings. Therefore, it is desirable to have methods that allow for deducing the parameters of a covariance model without relying on the likelihood function.</p>
-<p>Recently, several methods using neural networks (notably CNNs and GNNs) have been proposed to address this issue. The main approach aims to train a neural network capable of identifying the parameters of a covariance function based on a realization of a Gaussian random field with that covariance (Gerber et al., 2022, Lenzi et al., 2023, Wikle et al., 2022, Sainsbury-Dale et al., 2023).</p>
-<p>This internship aimed to develop and validate an architecture adapted to the spatio-temporal context. One challenge of this generalization is the estimation of a larger number of parameters, which has not been implemented so far. The first step involved coding (using the <code>PyGeometric</code> library in Python) the strategy highlighted in the literature, initially on simulated datasets. In the second phase, the goal was to adapt this approach to the spatio-temporal case, particularly for models derived from stochastic partial differential equations (Clarotto et al., 2024).</p>
+<p>Recently, several methods using neural networks (notably CNNs and GNNs) have been proposed to address this issue. The main approach aims to train a neural network capable of identifying the parameters of a covariance function based on a realization of a Gaussian random field with that covariance <span class="citation" data-cites="gerber202fast">Sainsbury-Dale et al. (<a href="#ref-sainsbury2023neural" role="doc-biblioref">2023</a>)</span>. It can be considered a Simulation-Based Inference (SBI) approach, also called amortized inference.</p>
+<section id="first-step-vincent-fourmigués-internship" class="level3">
+<h3 class="anchored" data-anchor-id="first-step-vincent-fourmigués-internship">First step : Vincent Fourmigué’s internship</h3>
+<p>A first step in this direction has been made by the M1 student Antoine Regardin during a 3-month internship in 2024, funded by the <a href="https://chaire-geolearning.org/">Geolearning</a> chair.</p>
+<p>This internship aimed to develop and validate the GNN architecture proposed in <span class="citation" data-cites="sainsbury2023neural">Sainsbury-Dale et al. (<a href="#ref-sainsbury2023neural" role="doc-biblioref">2023</a>)</span>, adapted to the spatial context. The architecture was coded in <code>PyTorch</code> with the library <code>PyG</code>(PyTorch_Geometric).</p>
+</section>
+<section id="current-work-alexandre-lorets-phd" class="level3">
+<h3 class="anchored" data-anchor-id="current-work-alexandre-lorets-phd">Current work : Alexandre Loret’s PhD</h3>
+<p>Alexandre Loret has begun his PhD in october 2025 and he will address the generalization of the SBI approach to a setting adapted to spatio-temporal data. The main challenges of this generalization include designing a GNN architecture that accounts for spatio-temporal neighborhood structures and handling the estimation of a significantly larger number of parameters. He will also apply the approach to models derived from stochastic partial differential equations <span class="citation" data-cites="clarotto2024">(<a href="#ref-clarotto2024" role="doc-biblioref">Clarotto et al. 2024</a>)</span>.</p>
+<p>More generally, he will tackle the computational challenges of the inference of complex spatio-temporal models, exploring different approaches. Several possibilities exist to address this problem, among which hybrid models that integrate neural networks within Gaussian processes, such as Deep Gaussian Markov Fields, as well as variational inference methods or Neural Operators.</p>
+<hr>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-clarotto2024" class="csl-entry" role="listitem">
+Clarotto, Lucia, Denis Allard, Thomas Romary, and Nicolas Desassis. 2024. <span>“The <span>SPDE</span> Approach for Spatio-Temporal Datasets with Advection and Diffusion.”</span> <em>Spatial Statistics</em> 62: 100847. https://doi.org/<a href="https://doi.org/10.1016/j.spasta.2024.100847">https://doi.org/10.1016/j.spasta.2024.100847</a>.
+</div>
+<div id="ref-gerber202fast" class="csl-entry" role="listitem">
+Gerber, Florian, and Douglas Nychka. 2021. <span>“Fast Covariance Parameter Estimation of Spatial Gaussian Process Models Using Neural Networks.”</span> <em>Stat</em> 10 (1): e382. https://doi.org/<a href="https://doi.org/10.1002/sta4.382">https://doi.org/10.1002/sta4.382</a>.
+</div>
+<div id="ref-lenzi2023neural" class="csl-entry" role="listitem">
+Lenzi, Amanda, Julie Bessac, Johann Rudi, and Michael L Stein. 2023. <span>“Neural Networks for Parameter Estimation in Intractable Models.”</span> <em>Computational Statistics &amp; Data Analysis</em> 185: 107762.
+</div>
+<div id="ref-sainsbury2023neural" class="csl-entry" role="listitem">
+Sainsbury-Dale, Matthew, Jordan Richards, Andrew Zammit-Mangion, and Raphaël Huser. 2023. <span>“Neural Bayes Estimators for Irregular Spatial Data Using Graph Neural Networks.”</span> <em>arXiv Preprint arXiv:2310.02600</em>.
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -188,10 +188,10 @@ div.csl-indent {
 
 <p>An incomplete list of research topics I’m interested in:</p>
 <ul>
-<li>Spatio-temporal statistics <span class="citation" data-cites="allard2022">Clarotto et al. (<a href="#ref-clarotto2024" role="doc-biblioref">2024</a>)</span></li>
-<li>Stochastic PDEs <span class="citation" data-cites="clarotto2024">(see <a href="#ref-clarotto2024" role="doc-biblioref">Clarotto et al. 2024</a>)</span></li>
-<li>Deep generative models</li>
-<li>Physics-Informed Neural Networks (PINNs)</li>
+<li>Spatio-temporal statistics <span class="citation" data-cites="allard2022">Pereira, Clarotto, and Desassis (<a href="#ref-pereira2025strf" role="doc-biblioref">2025</a>)</span></li>
+<li>Stochastic PDEs for spatio-temporal modeling <span class="citation" data-cites="clarotto2024">Pereira, Clarotto, and Desassis (<a href="#ref-pereira2025strf" role="doc-biblioref">2025</a>)</span></li>
+<li>Deep generative models for spatio-temporal data</li>
+<li>Physics-Informed Neural Networks (PINNs) and their generalization for Stochastic (P)DEs</li>
 <li>Compositional Data Analysis <span class="citation" data-cites="clarotto2022">(see <a href="#ref-clarotto2022" role="doc-biblioref">Clarotto, Allard, and Menafoglio 2022</a>)</span></li>
 <li>Fast methods for spatial and spatio-temporal inference <span class="citation" data-cites="allard2021">(see <a href="#ref-allard2021" role="doc-biblioref">Allard et al. 2021</a>)</span></li>
 </ul>
@@ -202,13 +202,16 @@ div.csl-indent {
 Allard, Denis, Lucia Clarotto, and Xavier Emery. 2022. <span>“Fully Nonseparable Gneiting Covariance Functions for Multivariate Space–Time Data.”</span> <em>Spatial Statistics</em> 52: 100706. <a href="https://doi.org/10.1016/j.spasta.2022.100706">https://doi.org/10.1016/j.spasta.2022.100706</a>.
 </div>
 <div id="ref-allard2021" class="csl-entry" role="listitem">
-Allard, Denis, Lucia Clarotto, Thomas Opitz, and Thomas Romary. 2021. <span>“Discussion on <span>‘Competition on Spatial Statistics for Large Datasets’</span>.”</span> <em>Journal of Agricultural, Biological and Environmental Statistics</em> 26.
+Allard, Denis, Lucia Clarotto, Thomas Opitz, and Thomas Romary. 2021. <span>“Discussion on <span>‘Competition on Spatial Statistics for Large Datasets’</span>.”</span> <em>Journal of Agricultural, Biological and Environmental Statistics</em> 26. <a href="https://doi.org/10.1007/s13253-021-00462-2">https://doi.org/10.1007/s13253-021-00462-2</a>.
 </div>
 <div id="ref-clarotto2022" class="csl-entry" role="listitem">
 Clarotto, Lucia, Denis Allard, and Alessandra Menafoglio. 2022. <span>“A New Class of α-Transformations for the Spatial Analysis of Compositional Data.”</span> <em>Spatial Statistics</em> 47: 100570. <a href="https://doi.org/10.1016/j.spasta.2021.100570">https://doi.org/10.1016/j.spasta.2021.100570</a>.
 </div>
 <div id="ref-clarotto2024" class="csl-entry" role="listitem">
 Clarotto, Lucia, Denis Allard, Thomas Romary, and Nicolas Desassis. 2024. <span>“The SPDE Approach for Spatio-Temporal Datasets with Advection and Diffusion.”</span> <em>Spatial Statistics</em> 62: 100847. <a href="https://doi.org/10.1016/j.spasta.2024.100847">https://doi.org/10.1016/j.spasta.2024.100847</a>.
+</div>
+<div id="ref-pereira2025strf" class="csl-entry" role="listitem">
+Pereira, Mike, Lucia Clarotto, and Nicolas Desassis. 2025. <span>“The <span>SPDE</span> Approach for Spatio-Temporal Datasets with Advection and Diffusion.”</span> <em>Hal-04132148</em>. <a href="https://hal.science/hal-04132148">https://hal.science/hal-04132148</a>.
 </div>
 </div>
 
@@ -452,7 +455,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/luciclar\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

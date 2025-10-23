@@ -26,11 +26,11 @@ format:
 ---
 
 ::: {style="font-size: 95%;"}
-Lecturer (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
+Assistant Professor (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
 *MMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique*  
 Research at **UMR MIA Paris-Saclay** (Mathématique et Informatique Appliquées).
 
-Formerly PhD at Centre of Geosciences and Geoengineering, Mines Paris
+Formerly PhD at Centre of Geosciences and Geoengineering, Mines Paris (2020-2023).
 :::
 
 ::: {style="font-size: 80%;"}
@@ -40,7 +40,31 @@ Campus Agro Paris-Saclay
 91120 PALAISEAU
 :::
 
+::: {.callout-note}
+## News
 
+I welcome in my team Alexandre Loret, a PhD student under the supervision of Thomas Romary and Nicolas Desassis (Mines Paris) and myself. His PhD is funded by the [Geolearning](https://chaire-geolearning.org/) chair.
+
+He will tackle the computational challenges of the inference of complex spatio-temporal models, exploring different techniques in Deep Leanrning. 
+
+Let this new adventure begin!
+:::
+
+::: {.callout-tip}
+## Open positions
+
+Two offers for a 6-month M2 internship or research project under my supervision (spring-summer 2026) are open in MIA Paris-Saclay.
+
+* [Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data](assets/M2internship_ST_sre_2026.pdf) 
+
+with Gloria Buritica
+
+* [Physics Informed Neural Networks for parameter estimation in Stochastic Differential Equations](assets/M2internship_PINNS_SDE_2026.pdf) 
+
+with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet 
+
+**Check those out!**
+:::
 # Research
 
 An incomplete list of research topics I'm interested in:

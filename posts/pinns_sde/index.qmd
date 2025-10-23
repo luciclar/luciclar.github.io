@@ -1,0 +1,60 @@
+---
+title: Physics-Informed Neural Networks for parameter estimation in SDEs
+description: "Work with Sophie Donnet, Hugo Gangloff, Nicolas Jouvin"
+author:
+  - name: Lucia Clarotto
+    #url: https://samanthacsik.github.io/
+    #orcid: 0000-0002-5300-3075
+    #affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+    #affiliation-url: https://ucsb-meds.github.io/ 
+#date: 10-24-2022
+#citation: 
+  #url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
+image: pinns_sde.png
+categories: [pinns, sde, generative models, spatial ecology] 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: ref_sde.bib
+---
+
+## Physics-Informed Neural Networks for SDEs
+
+Stochastic Differential Equations (SDEs) are popular models in many fields including spatial ecology [@michelot2019], climate science [@ditlevsen2023warning] and biology [@degond2020fp]. Diffusion SDEs with additive noise are commonly found and defined as in @oksendal2003stochastic:
+$$\mathrm{d}X_t=F(X_t;\beta)\, \mathrm{d}t+\Sigma\, \mathrm{d}W_t, \quad X_0\sim p_0$$
+where  $(X_t)_t \in\mathbb{R}^d$ is the stochastic process of interest, $W_t$ is a $d$-dimensional Brownian noise, $p_0$ is the initial distribution, $\beta$ parametrizes the drift of the equation and $\Sigma$ is the diffusion coefficient.  
+
+
+When proposing such a model for observed trajectories at discrete times $(x_{t_1}, \dots, x_{t_n})$, the next step consists in estimating the parameter $\theta=\{\beta,\Sigma\}$ from those observed data. This is a critical task from which one can gain understanding on the underlying process mechanics.
+
+One classical parameter estimation approach is that of maximum likelihood. In some rare cases, when the SDE is such that the likelihood of the observations can be computed explicitly as a function of the parameters $\theta$, the estimation then resorts to a classical estimation task. However, in many cases this approach is not possible, and a classical procedure is to locally linearize the EDS. Many approaches have been proposed over the last decades, all with strengths and weaknesses [@pilipovic2024parameter].
+
+\medskip
+
+To the extent of our knowledge, another feature of SDEs has been under-used in the estimation context. Indeed, let  $p(x,t;\theta)$ be the density function of $X_t$ for a given set of parameters $\theta$. The behavior of $p(x,t;\theta)$ is described by the  Fokker-Planck Equation (FPE) [@risken1989fokker], which is the Partial Differential Equation (PDE) defined by 
+\begin{eqnarray*}
+    \label{eq:fpe}
+    \frac{\partial p(x,t;\theta)}{\partial t}&=&-\nabla\cdot(F(x;\beta)p(x,t;\theta))+\frac{1}{2}\nabla\cdot\left(\Sigma\Sigma^\top\nabla p(x,t;\theta)\right),\\
+    p(\cdot ,0;\theta)&=&p_0 
+\end{eqnarray*}
+where $\nabla$ and $\nabla \cdot$ denotes the gradient and divergence operators. Thus, solving  this PDE would provide an implicit expression of the marginal likelihood of each observation $x_{t_i}$, which is a first step towards the maximum likelihood estimation of $\theta$.
+
+In the past few years, the emergence of Physics-Informed Neural Networks (PINNs) [@raissi2019physics] has led to a fundamental rethinking of traditional approaches to solving partial differential equations. 
+In a few words, the  PINNs approach  seeks to find the best neural network $u_\nu$ ($\nu$ being the set of weights and biases) representing the solution of the PDE  in the form $\mathcal{N}_\theta[u]=0$, where $\mathcal{N}_\theta$ is an arbitrary differential operator, by minimizing its residuals computed at randomly sampled collocation points, in a so-called forward problem. This mesh-less approach has proven useful in a variety of contexts. It can also be extended to inverse problems where one seeks to learn the differential operator's parameters $\theta$ given some observations of the solution $p(x_i,t_j;\theta)$, thus offering a flexible way to incorporate available “data" in the training.
+
+\medskip
+
+Two additional difficulties arise in the context of this internship:
+
+  1. First, $p(x,t;\theta)$ being a density function, the PINN is expected to learn a normalized probability density, hence one must ensure that, for any $t$, $\int_{\Omega}p(x,t;\theta )\mathrm{d}x=1$.
+  2. Second, we do not observe the solution itself but realisations of the SDE at discrete time points, whose marginal distribution is the solution of the PDE. 
+
+
+A recent line of research uses PINNs for simulation or parameter estimation in SDEs via their FPE [@feng2021solving, @chen2020solvinginversestochasticproblems, @liu2023pinf], as we have just described. In this context, building on the previous articles, we explore the connection between SDEs, their FPE, and the Physics-Informed Neural Network (PINN) methodology.
+
+### M2 internship 2026
+ 
+We have an open position for a M2 student's 6-month internship starting in 2026. The internship aims at proposing an efficient neural network architecture and optimisation scheme to accurately solve a FPE (forward problem) and perform parameter estimation (inverse problem) by using observational data that are assumed to be generated by the corresponding SDE. All the details are available [here](assets/M2internship_PINNS_SDE_2026.pdf).
+
+---
+
+::: {#refs}
+:::
