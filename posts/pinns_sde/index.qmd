@@ -48,7 +48,7 @@ Two additional difficulties arise in the context of this internship:
   2. Second, we do not observe the solution itself but realisations of the SDE at discrete time points, whose marginal distribution is the solution of the PDE. 
 
 
-A recent line of research uses PINNs for simulation or parameter estimation in SDEs via their FPE [@feng2021solving, @chen2020solvinginversestochasticproblems, @liu2023pinf], as we have just described. In this context, building on the previous articles, we explore the connection between SDEs, their FPE, and the Physics-Informed Neural Network (PINN) methodology.
+A recent line of research uses PINNs for simulation or parameter estimation in SDEs via their FPE [@feng2021solving;  @chen2020solvinginversestochasticproblems; @liu2023pinf], as we have just described. In this context, building on the previous articles, we explore the connection between SDEs, their FPE, and the Physics-Informed Neural Network (PINN) methodology.
 
 ### M2 internship 2026
  

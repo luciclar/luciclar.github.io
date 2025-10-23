@@ -20,8 +20,8 @@ format:
   html: 
     grid:
       sidebar-width: 200px
-      body-width: 1100px
-      margin-width: 200px
+      body-width: 1130px
+      margin-width: 170px
       gutter-width: 1.5rem
 ---
 
