@@ -19,70 +19,75 @@ about:
 format:
   html: 
     grid:
-      sidebar-width: 200px
-      body-width: 1130px
+      sidebar-width: 100px
+      body-width: 1140px
       margin-width: 170px
       gutter-width: 1.5rem
 ---
 
 ::: {style="font-size: 95%;"}
-Assistant Professor (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.  
-*MMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique*  
+Assistant Professor (Maîtresse de Conférences) in Statistics at **AgroParisTech** since september 2023.\
+*MMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique*\
 Research at **UMR MIA Paris-Saclay** (Mathématique et Informatique Appliquées).
 
 Formerly PhD at Centre of Geosciences and Geoengineering, Mines Paris (2020-2023).
 :::
 
 ::: {style="font-size: 80%;"}
-Office: E4.510 [=Building E, 4th floor, corridor 500, office 10]  
-Campus Agro Paris-Saclay
-22 place de l’Agronomie  
+Office: E4.510 \[=Building E, 4th floor, corridor 500, office 10\]\
+Campus Agro Paris-Saclay 22 place de l'Agronomie\
 91120 PALAISEAU
 :::
 
-::: {.callout-note}
-## News
+::: callout-note
+## Save the date and subscribe to the PIML Day on April 15, 2026
 
-I welcome in my team Alexandre Loret, a PhD student under the supervision of Thomas Romary and Nicolas Desassis (Mines Paris) and myself. His PhD is funded by the [Geolearning](https://chaire-geolearning.org/) chair.
+We are organizing a day of symposium on physic-informed machine-learning together with Hugo Gangloff, Nicolas Jouvin and Mathilde Mougeot. We planned a nice program & list of speakers covering a wide range or area from statistical learning to modeling and numerical analysis! The event will also have a poster session.
 
-He will tackle the computational challenges of the inference of complex spatio-temporal models, exploring different techniques in Deep Leanrning. 
+It will take place in the beautiful AgroParisTech campus, in the heart of our beloved Plateau de Saclay.
+
+Registration is free but mandatory. All the info are on the conference website
+
+<https://pimlday26.sciencesconf.org/>
+:::
+
+::: callout-tip
+## New PhD student
+
+In October 2025 I welcomed in my team Alexandre Loret, a PhD student under the supervision of Thomas Romary, Nicolas Desassis (Mines Paris) and myself. His PhD is funded by the [Geolearning](https://chaire-geolearning.org/) chair.
+
+He will tackle the computational challenges of the inference of complex spatio-temporal models, exploring different techniques in Deep Learning.
 
 Let this new adventure begin!
 :::
 
-::: {.callout-tip}
-## Open positions
+::: callout-tip
+## M2 internships 2026
 
-Two offers for a 6-month M2 internship or research project under my supervision (spring-summer 2026) are open in MIA Paris-Saclay.
+In spring 2026 I will supervision two M2 internships in MIA Paris-Saclay:
 
-* [Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data](assets/M2internship_ST_sre_2026.pdf) 
+-   [Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data](assets/M2internship_ST_sre_2026.pdf) with Gloria Buritica, funded by the [DataIA Institute](https://www.dataia.eu/)
 
-with Gloria Buritica
-
-* [Physics Informed Neural Networks for parameter estimation in Stochastic Differential Equations](assets/M2internship_PINNS_SDE_2026.pdf) 
-
-with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet 
-
-**Check those out!**
+-   [Physics Informed Neural Networks for parameter estimation in Stochastic Differential Equations](assets/M2internship_PINNS_SDE_2026.pdf) with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet
 :::
+
 # Research
 
 An incomplete list of research topics I'm interested in:
 
-* Spatio-temporal statistics
-* Stochastic Partial Differential Equations
-* Deep generative models
-* Physics-Informed Neural Networks (PINNs)
+-   Spatio-temporal statistics
+-   Stochastic Partial Differential Equations
+-   Deep generative models
+-   Physics-Informed Neural Networks (PINNs)
 
 # Teaching
 
-I teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics...) at undergraduate and graduate students at *AgroParisTech*, Master *BEE of University Paris Saclay*, *Mines Paris* and Master *EcoTrop of AgroParisTech and University of Guyana*.
-
+I teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics...) at undergraduate and graduate students at *AgroParisTech*, Master [*BEE of University Paris Saclay*](), *Mines Paris* and Master [*BEE of AgroParisTech and University of Guyana*](https://umr-ecofog.cirad.fr/enseignement/master-2-bee/presentation).
 
 # Short description
 
-* Here is my [CV {{< fa file >}}](assets/CV_Clarotto.pdf) 
+-   Here is my [CV {{< fa file >}}](assets/CV_Clarotto.pdf)
 
-* [In short, I am...](https://www.scoop.it/topic/life-sci-news-upsaclay/p/4161208374/2024/09/17/portrait-jeune-chercheuse-lucia-clarotto-maitresse-de-conferences-en-statistique-spatio-temporelle){target="_blank"}
+-   [In short, I am...](https://www.scoop.it/topic/life-sci-news-upsaclay/p/4161208374/2024/09/17/portrait-jeune-chercheuse-lucia-clarotto-maitresse-de-conferences-en-statistique-spatio-temporelle){target="_blank"}
 
-* [In more detail, I am...](https://www.universite-paris-saclay.fr/actualites/lucia-clarotto-predire-des-phenomenes-environnementaux-grace-la-geostatistique)
+-   [In more detail, I am...](https://www.universite-paris-saclay.fr/actualites/lucia-clarotto-predire-des-phenomenes-environnementaux-grace-la-geostatistique)
