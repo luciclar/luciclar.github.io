@@ -46,7 +46,7 @@ Lieu : AgroParisTech
 - 18/03 : TP statistiques spatiales, salle iC2.1.63
 - 30/03 : examen (projet)
 
-### Pré-requis :
+### Pré-requis
 
 - Bases de programmation sur R
 
