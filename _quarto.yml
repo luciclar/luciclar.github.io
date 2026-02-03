@@ -17,7 +17,7 @@ website:
       - href: posts.qmd
         text: Reseach topics
       - href: talks/talks.qmd
-        text: TalkS
+        text: Talks
       - href: course_MSV/course.qmd
         text: Course MSV
       - text: Get in touch!
