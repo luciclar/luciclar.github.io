@@ -1,0 +1,65 @@
+---
+title: "Apprentissage statistique pour les données envronnementales"
+subtitle: "Pierre Barbillon, Gloria Buritica, Lucia Clarotto"
+output: 
+  html_document:
+   toc: false
+   number_sections: false
+   highlight: tango
+---
+
+<br>
+
+<img src="img/images.jpeg" alt="mpe" width="280px"
+     style="float: right; margin-left: 20px; margin-bottom: 10px;" />
+     
+### Résumé
+
+Les données en sciences de l'environnement, telles que les données climatiques, d'usage des sols, ou de qualité de l'air, présentent très fréquemment des dépendances temporelles ou spatiales en lien avec leur processus d'observation.
+
+Ces dépendances sont indispensables à prendre en compte dans une modélisation statistique car elles peuvent avoir un impact sur les prédictions et les conclusions. Il est possible de s'appuyer sur ces dépendances afin de réaliser des prévisions dans le futur ou à des points de l'espace non échantillonnés.
+
+De plus, la notion de risque environnemental est très prégnante dans ce domaine. Les statistiques extrêmes permettent d'estimer les niveaux de retour de certains phénomènes extrêmes (crues centennales, dépassement de températures extrêmes).
+
+Nous verrons dans ce cours comment modéliser les dépendances temporelles et spatiales et les utiliser en prévision. Nous présenterons aussi les méthodes des extrêmes en statistique. Les cours seront accompagnées de séances de TP sous R où seront mises en œuvre les techniques vues en cours sur des jeux de données en sciences environnementales.
+
+### Thèmes abordés
+
+- **Statistiques temporelles** : méthodes de décomposition des séries temporelles, processus auto-régressifs et à moyennes mobiles, fonction d'autocorrélation, prévisions.
+
+- **Statistiques spatiales et spatio-temporelles** : géostatistique, fonctions aléatoires, processus Gaussiens, analyse structurale, estimation de paramètres par méthode des moments et maximum de vraisemblance, krigeage, simulations conditionnelles.
+
+- **Extrêmes** : loi d'extremum généralisée, loi de Pareto généralisée, estimation de niveaux de retour, mesures de dépendance des extrêmes, processus R-Pareto.
+
+### Programme
+
+Volume horaire : 7 séances de 3h = 21 heures
+
+Lieu : AgroParisTech
+
+- 04/02 : statistiques temporelles, salle C2.2.48
+- 11/02 : TP statistiques temporelles, salle iC2.1.63
+- 18/02 : statistiques des valeurs extrêmes, salle C2.1.67 
+- 25/02 : statistiques spatiales (spatio-temporelles), salle C2.1.67 
+- 04/03 : *vacances*
+- 11/03 : TP statistiques des valeurs extrêmes, salle iC2.1.63 
+- 18/03 : TP statistiques spatiales, salle iC2.1.63
+- 30/03 : examen (projet)
+
+### Pré-requis :
+
+- Bases de programmation sur R
+
+- Statistique inférentielle
+
+- Probabilités continues
+
+### Ressources  
+
+| Cours | Slides | TP | Ressources |
+|:-------------|:-------:|:--------|:------:|
+| **Cours 1** : Statistiques temporelles | [{{< fa download >}}](./Ressources/Slides/SeriesTempMSV.pdf) | | |
+| **Cours 2** : Extrêmes | | | |
+| **Cours 3** : Statistiques spatiales | | | |
+
+
