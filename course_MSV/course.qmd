@@ -41,10 +41,10 @@ Lieu : AgroParisTech
 - 11/02 : TP statistiques temporelles, salle iC2.1.63
 - 18/02 : statistiques des valeurs extrêmes, salle C2.1.67 
 - 25/02 : statistiques spatiales (spatio-temporelles), salle C2.1.67 
-- 04/03 : *vacances*
+- 04/03 : TP statistiques spatiales, salle C2.4.53
 - 11/03 : TP statistiques des valeurs extrêmes, salle iC2.1.63 
-- 18/03 : TP statistiques spatiales, salle iC2.1.63
-- 30/03 : examen (projet)
+- 18/03 : pas de cours (soutenance de thèse à AgroParisTech C2.0.37 facultative)
+- 30/03 : examen (projet), 9h-17h30, salle iC2.1.58
 
 ### Pré-requis
 
@@ -56,10 +56,10 @@ Lieu : AgroParisTech
 
 ### Ressources  
 
-| Cours | Slides | TP | Ressources |
-|:-------------|:-------:|:--------|:------:|
-| **Cours 1** : Statistiques temporelles | [{{< fa download >}}](./Ressources/Slides/SeriesTempMSV.pdf) | | |
-| **Cours 2** : Extrêmes | | | |
-| **Cours 3** : Statistiques spatiales | | | |
+| Cours | Slides | TP | 
+|:-------------|:-------:|:--------|
+| **Cours 1** : Statistiques temporelles | [{{< fa download >}}](./Ressources/Slides/SeriesTempMSV.pdf) | [{{< fa download >}}](./Ressources/SeriesTempTD.zip) |
+| **Cours 2** : Extrêmes | [{{< fa download >}}](./Ressources/Slides/ExtremesMSV.pdf) | |
+| **Cours 3** : Statistiques spatiales | [{{< fa download >}}](./Ressources/Slides/StatSpatialeMSV.pdf) |  |
 
 
