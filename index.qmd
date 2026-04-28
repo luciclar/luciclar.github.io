@@ -40,36 +40,40 @@ Campus Agro Paris-Saclay 22 place de l'Agronomie\
 :::
 
 ::: callout-note
-## Save the date and subscribe to the PIML Day on April 15, 2026
+## The PIML Day was a succes !
 
-We are organizing a day of symposium on physic-informed machine-learning together with Hugo Gangloff, Nicolas Jouvin and Mathilde Mougeot. We planned a nice program & list of speakers covering a wide range or area from statistical learning to modeling and numerical analysis! The event will also have a poster session.
+We organized a day of symposium together with Hugo Gangloff, Nicolas Jouvin and Mathilde Mougeot, at AgroParisTech on April, 15. 
 
-It will take place in the beautiful AgroParisTech campus, in the heart of our beloved Plateau de Saclay.
+70 researchers from across France gathered to discuss methodological and theoretical advances in Physics-Informed Machine Learning, featuring six inspiring keynotes and a poster session. 
 
-Registration is free but mandatory. All the info are on the conference website
+
 
 <https://pimlday26.sciencesconf.org/>
 :::
 
 ::: callout-tip
-## New PhD student
+## M2 internships 2026
 
-In October 2025 I welcomed in my team Alexandre Loret, a PhD student under the supervision of Thomas Romary, Nicolas Desassis (Mines Paris) and myself. His PhD is funded by the [Geolearning](https://chaire-geolearning.org/) chair.
+In spring 2026 I'm tutoring two M2 interns in MIA Paris-Saclay:
+
+-   [Francis Jégou](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/francis-jegou&ved=2ahUKEwjTx9LdkJCUAxUVTqQEHcbyHFgQFnoECB8QAQ&usg=AOvVaw2RvtW9O4AoewhycHmZSWxh) (student at Polytech Sorbonne) on the [Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data](assets/M2internship_ST_sre_2026.pdf), together with Gloria Buritica, funded by the [DataIA Institute](https://www.dataia.eu/)
+
+-   [Yann Chauvard](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/yann-chauvard-aa4093249&ved=2ahUKEwjDl_fLkJCUAxVhUaQEHSqTK-8QFnoECBgQAQ&usg=AOvVaw0hh5ngWuhE3TXakSupw7jz) (student at CentraleSupélec) on [Physics Informed Neural Networks for parameter estimation in Stochastic Differential Equations](assets/M2internship_PINNS_SDE_2026.pdf), together with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet, funded by the [GS MRES](https://www.universite-paris-saclay.fr/graduate-schools/gs-metiers-de-la-recherche-et-de-lenseignement-superieur)
+
+
+Both are currently seeking PhD opportunities in Statistics and Machine Learning applied to environmental and biological sciences, starting in September 2026. Please don’t hesitate to reach out if you have any available positions or leads!
+:::
+
+::: callout-tip
+## My first PhD student
+
+In October 2025 I welcomed in my team the PhD student [Alexandre Loret](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/alexandre-loret-bb3b5824b&ved=2ahUKEwi1w5fjkpCUAxUAUqQEHap3J4EQFnoECDkQAQ&usg=AOvVaw3-h_D_15BtCLEIaxbl2hoC), under the supervision of Thomas Romary, Nicolas Desassis (Mines Paris) and myself. His PhD is funded by the [Geolearning](https://chaire-geolearning.org/) chair.
 
 He will tackle the computational challenges of the inference of complex spatio-temporal models, exploring different techniques in Deep Learning.
 
 Let this new adventure begin!
 :::
 
-::: callout-tip
-## M2 internships 2026
-
-In spring 2026 I will supervision two M2 internships in MIA Paris-Saclay:
-
--   [Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data](assets/M2internship_ST_sre_2026.pdf) with Gloria Buritica, funded by the [DataIA Institute](https://www.dataia.eu/)
-
--   [Physics Informed Neural Networks for parameter estimation in Stochastic Differential Equations](assets/M2internship_PINNS_SDE_2026.pdf) with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet
-:::
 
 # Research
 
@@ -82,7 +86,7 @@ An incomplete list of research topics I'm interested in:
 
 # Teaching
 
-I teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics...) at undergraduate and graduate students at *AgroParisTech*, Master [*BEE of University Paris Saclay*](), *Mines Paris* and Master [*BEE of AgroParisTech and University of Guyana*](https://umr-ecofog.cirad.fr/enseignement/master-2-bee/presentation).
+I teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics...) at undergraduate and graduate students at *AgroParisTech*, Master 2 [*MSV*](https://sites.google.com/view/m2-msv/accueil) Master 2 [*BEE of University Paris Saclay*](https://www.universite-paris-saclay.fr/formation/master/biodiversite-ecologie-et-evolution), *Mines Paris* and Master 2 [*BEE of AgroParisTech and University of Guyana*](https://umr-ecofog.cirad.fr/enseignement/master-2-bee/presentation).
 
 # Short description
 

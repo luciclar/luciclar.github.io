@@ -18,8 +18,6 @@ website:
         text: Reseach topics
       - href: talks/talks.qmd
         text: Talks
-      - href: course_MSV/course.qmd
-        text: Course MSV
       - text: Get in touch!
         menu:
           - icon: linkedin

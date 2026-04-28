@@ -1,33 +1,84 @@
-- title: "Modeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
-  begin-date: 2024-06-24
-  end-date: 2024-06-28
-  description: 'International Meeting on Statistical Climatology (IMSC)'
-  location: Toulouse, France
 
-- title: "Parameter and density estimation in SDEs via PINNs and Normalizing Flows: applications to environmental sciences"
-  begin-date: 2025-03-31
-  end-date: 2025-04-03
-  description: 'Geolearning Seminar'
-  location: Fréjus, France
+- title: "Prediction of spatio-temporal Gaussian processes by advection-diffusion stochastic partial differential equations"
+  begin-date: 2026-06-04
+  end-date: 2026-06-05
+  description: 'Ukrainian Mathematics Days 2026'
+  location: Paris, France
+
+- title: "Prediction of spatio-temporal gaussian processes by advection-diffusion stochastic partial differential equations"
+  begin-date: 2026-04-09
+  end-date: 2026-04-09
+  description: 'UQSay'
+  location: Online 
+
+- title: "Modeling of aerosols in the atmosphere using advection-diffusion SPDEs on meshed surfaces"
+  begin-date: 2026-03-22
+  end-date: 2026-03-27
+  description: 'Statistiques au sommet de Rochebrune 2026'
+  location: Megève, France
+
+- title: "Scalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
+  begin-date: 2025-09-15
+  end-date: 2025-09-17
+  description: 'GRASPA (Environmental Statistics) 2025'
+  location: Rome, Italy
+
+- title: "Scalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
+  begin-date: 2025-07-15
+  end-date: 2025-07-18
+  description: 'Spatial Statistics 2025: At the Dawn of AI'
+  location: Noordwijk, The Netherlands
  
 - title: "Spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs: application to environmental data"
   begin-date: 2025-04-07
   end-date: 2025-04-07
   description: 'Séminaire de Probabilités et Statistique IMAG'
   location: Montpellier, France
-  
-- title: "Scalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
-  begin-date: 2025-07-15
-  end-date: 2025-07-18
-  description: 'Spatial Statistics 2025: At the Dawn of AI'
-  location: Noordwijk, The Netherlands
-  
-- title: "Scalable methods for simulation, inference and prediction of spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
-  begin-date: 2025-09-15
-  end-date: 2025-09-17
-  description: 'GRASPA (Environmental Statistics) 2025'
-  location: Rome, Italy
-  
+
+- title: "Parameter and density estimation in SDEs via PINNs and Normalizing Flows: applications to environmental sciences"
+  begin-date: 2025-03-31
+  end-date: 2025-04-03
+  description: 'Geolearning Seminar'
+  location: Fréjus, France
+
+- title: "Modeling CO2 concentration in the atmosphere using spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
+  begin-date: 2024-06-24
+  end-date: 2024-06-28
+  description: 'International Meeting on Statistical Climatology (IMSC)'
+  location: Toulouse, France
+
+- title: "Spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs: application to environmental data"
+  begin-date: 2024-06-11
+  end-date: 2024-06-11
+  description: 'Journée Thématique IA et Environnement'
+  location: Gif-sur-Yvette, France
+
+- title: "Spatio-temporal prediction of random fields defined from advection-diffusion SPDEs"
+  begin-date: 2024-05-30
+  end-date: 2024-05-31
+  description: 'StaTalk'
+  location: Rlorence, Italy
+ 
+- title: "Physics-Informed Neural Networks for Matérn-SPDEs: Attempts and Challenges"
+  begin-date: 2024-05-22
+  end-date: 2024-05-22
+  description: 'Journée RESSTE - Modèles génératifs'
+  location: Paris, France
+
+- title: "Champs aléatoires spatio-temporels définis par EDPS d'advection-diffusion"
+  begin-date: 2024-04-12
+  end-date: 2024-04-12
+  description: 'Séminaire de statistique à Rennes'
+  location: Rennes, France
+ 
+- title: "Spatio-temporal random fields on meshed surfaces defined from advection-diffusion SPDEs"
+  begin-date: 2024-03-24
+  end-date: 2024-03-29
+  description: 'Statistiques au sommet de Rochebrune 2024'
+  location: Megève, France
+
+
+
   
   #links:
   #- name: Companion site and materials
