@@ -1,0 +1,65 @@
+---
+title: "People"
+---
+
+People I have the pleasure of sharing my research work and time with.
+
+## Colleagues
+
+*(in alphabetical order)*
+
+Denis Allard, Gloria Buritica, Nicolas Desassis, Sophie Donnet, Hugo Gangloff, Nicolas Jouvin, Mike Pereira, Thomas Romary, Charlie Sire...
+
+## PhD students
+
+**2025**
+
+**[Alexandre Loret](https://fr.linkedin.com/in/alexandre-loret-bb3b5824b)** - *Simulation-based inference of complex spatio-temporal models*
+
+Supervised jointly with Thomas Romary and Nicolas Desassis (Mines Paris). Funded by the [Geolearning chair](https://chaire-geolearning.org/).
+
+
+## Master students
+
+**2026**
+
+**[Francis Jégou](https://fr.linkedin.com/in/francis-jegou)** (M2 student, Polytech Sorbonne) - *Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data*
+
+Supervised jointly with Gloria Buritica. Funded by the [DataIA Institute](https://www.dataia.eu/).
+
+→ Now a PhD student at UCLouvain.
+
+**[Yann Chauvard](https://fr.linkedin.com/in/yann-chauvard-aa4093249)** (M2 student, CentraleSupélec) - *Physics-informed neural networks for parameter estimation in stochastic differential equations*
+
+Supervised jointly with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet. Funded by the [GS MRES](https://www.universite-paris-saclay.fr/graduate-schools/gs-metiers-de-la-recherche-et-de-lenseignement-superieur).
+
+→ Expected to start a PhD.
+
+
+**2025**
+
+**[Antoine Regardin](https://www.linkedin.com/in/antoine-regardin-2507482b0/)** (M2 student, Université de Strasbourg) - *Physics-informed generative neural networks for stochastic PDEs*
+
+Supervised jointly with Hugo Gangloff and Nicolas Jouvin. Funded by the [DataIA Institute](https://www.dataia.eu/).
+
+→ Now a PhD student at CRAN (Université de Lorraine, CNRS).
+
+
+**2024**
+
+**[Vincent Fourmigué](https://www.linkedin.com/in/vincent-fourmigue-47282729b/)** (M2 student, Université de Strasbourg) - *Inference of spatio-temporal models by deep learning*
+
+Supervised jointly with Thomas Romary and Mike Pereira. Funded by the [Geolearning chair](https://chaire-geolearning.org/).
+
+→ Now a PhD student at CentraleSupélec – Institut Gustave Roussy.
+
+
+## Visiting students
+
+**[Leonardo Marchesin](https://www.linkedin.com/in/leonardo-marchesin/)** (PhD student, MOX, Politecnico di Milano) - *Spatio-temporal statistics for complex domains*
+
+Supervised jointly with Denis Allard.
+
+**[Luca Aiello](https://sites.google.com/view/luca-aiello)** (PostDoc at University of Bergamo) - *Bayesian clustering and prediction of spatio-temporal data*
+
+→ Now PostDoc at University of California, Los Angeles.

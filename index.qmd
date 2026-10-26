@@ -39,39 +39,13 @@ Campus Agro Paris-Saclay 22 place de l'Agronomie\
 91120 PALAISEAU
 :::
 
-::: callout-note
-## The PIML Day was a succes !
-
-We organized a day of symposium together with Hugo Gangloff, Nicolas Jouvin and Mathilde Mougeot, at AgroParisTech on April, 15. 
-
-70 researchers from across France gathered to discuss methodological and theoretical advances in Physics-Informed Machine Learning, featuring six inspiring keynotes and a poster session. 
-
-
-
-<https://pimlday26.sciencesconf.org/>
-:::
 
 ::: callout-tip
-## M2 internships 2026
+## M2 internships 2027
 
-In spring 2026 I'm tutoring two M2 interns in MIA Paris-Saclay:
+waiting...
 
--   [Francis Jégou](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/francis-jegou&ved=2ahUKEwjTx9LdkJCUAxUVTqQEHcbyHFgQFnoECB8QAQ&usg=AOvVaw2RvtW9O4AoewhycHmZSWxh) (student at Polytech Sorbonne) on the [Inference of spatio-temporal stochastic recurrence models for extreme oceanographic data](assets/M2internship_ST_sre_2026.pdf), together with Gloria Buritica, funded by the [DataIA Institute](https://www.dataia.eu/)
-
--   [Yann Chauvard](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/yann-chauvard-aa4093249&ved=2ahUKEwjDl_fLkJCUAxVhUaQEHSqTK-8QFnoECBgQAQ&usg=AOvVaw0hh5ngWuhE3TXakSupw7jz) (student at CentraleSupélec) on [Physics Informed Neural Networks for parameter estimation in Stochastic Differential Equations](assets/M2internship_PINNS_SDE_2026.pdf), together with Hugo Gangloff, Nicolas Jouvin and Sophie Donnet, funded by the [GS MRES](https://www.universite-paris-saclay.fr/graduate-schools/gs-metiers-de-la-recherche-et-de-lenseignement-superieur)
-
-
-Both are currently seeking PhD opportunities in Statistics and Machine Learning applied to environmental and biological sciences, starting in September 2026. Please don’t hesitate to reach out if you have any available positions or leads!
-:::
-
-::: callout-tip
-## My first PhD student
-
-In October 2025 I welcomed in my team the PhD student [Alexandre Loret](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.linkedin.com/in/alexandre-loret-bb3b5824b&ved=2ahUKEwi1w5fjkpCUAxUAUqQEHap3J4EQFnoECDkQAQ&usg=AOvVaw3-h_D_15BtCLEIaxbl2hoC), under the supervision of Thomas Romary, Nicolas Desassis (Mines Paris) and myself. His PhD is funded by the [Geolearning](https://chaire-geolearning.org/) chair.
-
-He will tackle the computational challenges of the inference of complex spatio-temporal models, exploring different techniques in Deep Learning.
-
-Let this new adventure begin!
+Please don’t hesitate to reach out if you are a M2 student and interested in any subjet related to my research.
 :::
 
 
@@ -86,11 +60,22 @@ An incomplete list of research topics I'm interested in:
 
 # Teaching
 
-I teach statistics (Linear and non-linear models, Machine Learning, Spatial Statistics, Bayesian Statistics...) at undergraduate and graduate students at *AgroParisTech*, Master 2 [*MSV*](https://sites.google.com/view/m2-msv/accueil) Master 2 [*BEE of University Paris Saclay*](https://www.universite-paris-saclay.fr/formation/master/biodiversite-ecologie-et-evolution), *Mines Paris* and Master 2 [*BEE of AgroParisTech and University of Guyana*](https://umr-ecofog.cirad.fr/enseignement/master-2-bee/presentation).
+I teach statistics at the undergraduate and graduate levels, with a focus on:
+
+- Linear and nonlinear models
+- Machine learning
+- Spatial statistics
+- Bayesian statistics
+
+I teach in the engineering program at [AgroParisTech](https://www.agroparistech.fr/).
+
+I also contribute to master's programs at Université Paris-Saclay, including [Mathematics for the Life Sciences (MSV)](https://sites.google.com/view/m2-msv/programme/descriptif-des-cours/apprentissage-statistique-pour-les-donn%C3%A9es-environementales?authuser=0) and [Biodiversity, Ecology and Evolution (BEE)](https://www.universite-paris-saclay.fr/formation/master/biodiversite-ecologie-et-evolution).
+
+Finally, I teach in the master's program AgroParisTech-University of French Guiana [Biodiversity, Ecology and Evolution (BEE) program](https://umr-ecofog.cirad.fr/enseignement/master-2-bee/presentation), in Kourou, French Guiana.
 
 # Short description
 
--   Here is my [CV {{< fa file >}}](assets/CV_Clarotto.pdf)
+-   Here is my [CV {{< fa file >}}](assets/CV_Clarotto.pdf) (*in french*)
 
 -   [In short, I am...](https://www.scoop.it/topic/life-sci-news-upsaclay/p/4161208374/2024/09/17/portrait-jeune-chercheuse-lucia-clarotto-maitresse-de-conferences-en-statistique-spatio-temporelle){target="_blank"}
 

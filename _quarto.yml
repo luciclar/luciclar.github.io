@@ -16,6 +16,8 @@ website:
         text: Publications
       - href: posts.qmd
         text: Reseach topics
+      - href: supervision.qmd
+        text: People
       - href: talks/talks.qmd
         text: Talks
       - text: Get in touch!
