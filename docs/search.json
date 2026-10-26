@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Lucia Clarotto",
     "section": "",
-    "text": "Assistant Professor (Maîtresse de Conférences) in Statistics at AgroParisTech since september 2023.\nMMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique\nResearch at UMR MIA Paris-Saclay (Mathématique et Informatique Appliquées).\nFormerly PhD at Centre of Geosciences and Geoengineering, Mines Paris (2020-2023).\n\n\nOffice: E4.510 [=Building E, 4th floor, corridor 500, office 10]\nCampus Agro Paris-Saclay 22 place de l’Agronomie\n91120 PALAISEAU\n\n\n\n\n\n\n\nM2 internships 2027\n\n\n\nwaiting…\nPlease don’t hesitate to reach out if you are a M2 student and interested in any subjet related to my research.\n\n\n\nResearch\nAn incomplete list of research topics I’m interested in:\n\nSpatio-temporal statistics\nStochastic Partial Differential Equations\nDeep generative models\nPhysics-Informed Neural Networks (PINNs)\n\n\n\nTeaching\nI teach statistics at the undergraduate and graduate levels, with a focus on:\n\nLinear and nonlinear models\nMachine learning\nSpatial statistics\nBayesian statistics\n\nI teach in the engineering program at AgroParisTech.\nI also contribute to master’s programs at Université Paris-Saclay, including Mathematics for the Life Sciences (MSV) and Biodiversity, Ecology and Evolution (BEE).\nFinally, I teach in the master’s program AgroParisTech-University of French Guiana Biodiversity, Ecology and Evolution (BEE) program, in Kourou, French Guiana.\n\n\nShort description\n\nHere is my CV  (in french)\nIn short, I am…\nIn more detail, I am…"
+    "text": "Assistant Professor (Maîtresse de Conférences) in Statistics at AgroParisTech since september 2023.\nMMIP dept (Modélisation Mathématique, Informatique et Physique), UFR de Mathématique\nResearch at UMR MIA Paris-Saclay (Mathématique et Informatique Appliquées).\nFormerly PhD at Centre of Geosciences and Geoengineering, Mines Paris (2020-2023).\n\n\nOffice: E4.510 [=Building E, 4th floor, corridor 500, office 10]\nCampus Agro Paris-Saclay 22 place de l’Agronomie\n91120 PALAISEAU\n\n\n\n\n\n\n\nM2 internships 2027\n\n\n\nIn spring-summer 2027 I’m searching for a Master 2 student (6-month intersnhip) willing to work on - Bayesian Inverse Problem for Spatially Varying Anisotropy in Stochastic PDEs together with Charlie Sire.\nPlease don’t hesitate to reach out if you are a M2 student and interested in any subjet related to my research.\n\n\n\nResearch\nAn incomplete list of research topics I’m interested in:\n\nSpatio-temporal statistics\nStochastic Partial Differential Equations\nDeep generative models\nPhysics-Informed Neural Networks (PINNs)\n\n\n\nTeaching\nI teach statistics at the undergraduate and graduate levels, with a focus on:\n\nLinear and nonlinear models\nMachine learning\nSpatial statistics\nBayesian statistics\n\nI teach in the engineering program at AgroParisTech.\nI also contribute to master’s programs at Université Paris-Saclay, including Mathematics for the Life Sciences (MSV) and Biodiversity, Ecology and Evolution (BEE).\nFinally, I teach in the master’s program AgroParisTech-University of French Guiana Biodiversity, Ecology and Evolution (BEE) program, in Kourou, French Guiana.\n\n\nShort description\n\nHere is my CV  (in french)\nIn short, I am…\nIn more detail, I am…"
   },
   {
     "objectID": "posts/spde/index.html#prediction-of-spatio-temporal-data-on-meshed-surfaces-using-advection-diffusion-spdes",
@@ -130,14 +130,14 @@
     "href": "supervision.html",
     "title": "People",
     "section": "",
-    "text": "2025\nAlexandre Loret - Simulation-based inference of complex spatio-temporal models\nSupervised jointly with Thomas Romary and Nicolas Desassis (Mines Paris). Funded by the Geolearning chair."
+    "text": "People I have the pleasure of sharing my research work and time with."
   },
   {
     "objectID": "supervision.html#phd-students",
     "href": "supervision.html#phd-students",
     "title": "People",
-    "section": "",
-    "text": "2025\nAlexandre Loret - Simulation-based inference of complex spatio-temporal models\nSupervised jointly with Thomas Romary and Nicolas Desassis (Mines Paris). Funded by the Geolearning chair."
+    "section": "PhD students",
+    "text": "PhD students\n2025\nAlexandre Loret - Simulation-based inference of complex spatio-temporal models\nSupervised jointly with Thomas Romary and Nicolas Desassis (Mines Paris). Funded by the Geolearning chair."
   },
   {
     "objectID": "supervision.html#master-students",
@@ -151,6 +151,13 @@
     "href": "supervision.html#visiting-students",
     "title": "People",
     "section": "Visiting students",
-    "text": "Visiting students\nLeonardo Marchesin (PhD student, MOX, Politecnico di Milano) - Spatio-temporal statistics for complex domains\nSupervised jointly with Denis Allard."
+    "text": "Visiting students\nLeonardo Marchesin (PhD student, MOX, Politecnico di Milano) - Spatio-temporal statistics for complex domains\nSupervised jointly with Denis Allard.\nLuca Aiello (PostDoc at University of Bergamo) - Bayesian clustering and prediction of spatio-temporal data\n→ Now PostDoc at University of California, Los Angeles."
+  },
+  {
+    "objectID": "supervision.html#colleagues",
+    "href": "supervision.html#colleagues",
+    "title": "People",
+    "section": "Colleagues",
+    "text": "Colleagues\n(in alphabetical order)\nDenis Allard, Gloria Buritica, Nicolas Desassis, Sophie Donnet, Hugo Gangloff, Nicolas Jouvin, Mike Pereira, Thomas Romary, Charlie Sire…"
   }
 ]

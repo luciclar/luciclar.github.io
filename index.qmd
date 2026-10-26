@@ -43,7 +43,8 @@ Campus Agro Paris-Saclay 22 place de l'Agronomie\
 ::: callout-tip
 ## M2 internships 2027
 
-waiting...
+In spring-summer 2027 I'm searching for a Master 2 student (6-month intersnhip) willing to work on 
+- *[Bayesian Inverse Problem for Spatially Varying Anisotropy in Stochastic PDEs](https://mia-ps.inrae.fr/node/1092)* together with [Charlie Sire](https://charliesire.github.io/).
 
 Please don’t hesitate to reach out if you are a M2 student and interested in any subjet related to my research.
 :::
